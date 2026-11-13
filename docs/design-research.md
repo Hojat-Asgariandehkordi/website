@@ -55,6 +55,16 @@ Three landing directions were laid out on a design canvas: A, Ledger (dark edito
 - **Feature rows:** three alternating rows (lessons, Deal Team, calculator). The calculator figures are computed live by the real calculator.
 - **Closing sections:** a split newcomer block, "How we built it" principles, an FAQ and a dark call to action, then a darker footer.
 
+## Motion (Nov 12, 2026)
+
+- **Hero:** the badge, headline, text, buttons and ticks rise in one after another. "clearer map." has a slow gold shine. The progress ring draws itself, the coverage bars grow, the preview cards float gently and the background glow drifts.
+- **Fact bar:** the numbers count up when they scroll into view (`CountUp`).
+- **Scroll reveal:** sections, cards and feature rows fade and lift into view (`Reveal`, using IntersectionObserver). This is applied on the home, course, Deal Team and newcomer pages.
+- **Phase tabs:** the phase card and its module cards fade in, one after another, whenever you switch tabs.
+- **FAQ:** answers fade in when opened.
+- **Hover:** cards lift and arrows nudge to the right.
+- **Accessibility:** under `prefers-reduced-motion`, every animation is off and all content shows immediately. Content is only hidden once JavaScript is running (the `data-js` flag), so nothing is ever stuck invisible.
+
 ## Screenshots
 
 See `docs/screenshots/`:

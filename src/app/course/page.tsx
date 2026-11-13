@@ -7,6 +7,7 @@ import { getDb } from "@/lib/db";
 import { getCompletedLessons } from "@/lib/repo";
 import { ProgressBar } from "@/components/ProgressBar";
 import { PageHeader } from "@/components/PageHeader";
+import { Reveal } from "@/components/Reveal";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = { title: "Course" };
@@ -47,7 +48,7 @@ export default async function CoursePage() {
         {modules.map((m) => {
           const p = moduleProgress(m, completed);
           return (
-            <li key={m.slug}>
+            <Reveal as="li" key={m.slug} delay={(m.number % 3) * 60}>
               <Link href={`/course/${m.slug}`} className="card card-hover group grid gap-4 p-6 sm:grid-cols-[72px_1fr_auto] sm:items-center sm:p-7">
                 <span className="font-serif text-5xl leading-none text-cedar-300 group-hover:text-cedar-700" aria-hidden="true">{m.number}</span>
                 <span>
@@ -65,7 +66,7 @@ export default async function CoursePage() {
                   {user ? `${p.done}/${p.total} lessons` : `${p.total} lessons`}
                 </span>
               </Link>
-            </li>
+            </Reveal>
           );
         })}
       </ol>

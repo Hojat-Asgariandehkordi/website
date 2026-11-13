@@ -6,6 +6,7 @@ import { getDb } from "@/lib/db";
 import { listTeam } from "@/lib/repo";
 import { TeamManager } from "@/components/TeamManager";
 import { PageHeader } from "@/components/PageHeader";
+import { Reveal } from "@/components/Reveal";
 
 export const metadata: Metadata = { title: "Deal Team" };
 export const dynamic = "force-dynamic";
@@ -36,7 +37,7 @@ export default async function DealTeamPage() {
 
       <div className="mt-12 space-y-8">
         {roles.map((r) => (
-          <section key={r.slug} id={r.slug} aria-labelledby={`${r.slug}-h`} className="card scroll-mt-40 p-7 sm:p-9">
+          <Reveal key={r.slug}><section id={r.slug} aria-labelledby={`${r.slug}-h`} className="card scroll-mt-40 p-7 sm:p-9">
             <div className="flex flex-wrap items-center gap-3">
               <h2 id={`${r.slug}-h`} className="text-3xl">{r.title}</h2>
               {r.newcomerOnly && <span className="tag bg-clay-100 text-clay-700">For newcomers</span>}
@@ -53,7 +54,7 @@ export default async function DealTeamPage() {
                 Find one: {r.links.map((l, i) => <span key={l.url}>{i > 0 && " · "}<a className="link" href={l.url} target="_blank" rel="noopener noreferrer">{l.title}</a></span>)}
               </p>
             )}
-          </section>
+          </section></Reveal>
         ))}
       </div>
 

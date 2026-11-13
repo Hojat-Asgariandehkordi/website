@@ -4,6 +4,7 @@ import { getModules, getSupplements } from "@/lib/content";
 import { currentUser } from "@/lib/auth";
 import { setNewcomerTrackAction } from "@/app/actions/learning";
 import { PageHeader } from "@/components/PageHeader";
+import { Reveal } from "@/components/Reveal";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = { title: "For newcomers" };
@@ -38,8 +39,8 @@ export default async function NewcomersPage() {
     <div className="container-page">
 
       <ol className="mt-12 grid gap-5 md:grid-cols-2">
-        {sups.map((s) => (
-          <li key={s.slug} className="card card-hover flex flex-col p-7">
+        {sups.map((s, i) => (
+          <Reveal as="li" key={s.slug} delay={(i % 2) * 100} className="card card-hover flex flex-col p-7">
             <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-clay-700 font-serif text-paper">{s.code}</span>
             <h2 className="mt-2 text-2xl"><Link href={`/newcomers/${s.slug}`} className="hover:text-cedar-700">{s.title}</Link></h2>
             <p className="mt-2 flex-1 text-[15px] text-ink-soft">{s.summary}</p>
@@ -47,7 +48,7 @@ export default async function NewcomersPage() {
               Goes with: {s.modules.map((m, i) => <span key={m}>{i > 0 && ", "}<Link className="link" href={`/course/${m}`}>{titleOf(m)}</Link></span>)}
             </p>
             <Link href={`/newcomers/${s.slug}`} className="mt-5 inline-flex items-center gap-1.5 text-[15px] font-medium text-clay-700 hover:underline">Read {s.code} <ArrowRight size={16} aria-hidden="true" /></Link>
-          </li>
+          </Reveal>
         ))}
       </ol>
     </div>
