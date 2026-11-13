@@ -21,6 +21,26 @@ Research done on Nov 12, 2026 to guide NextOwner's look and structure.
 | Calculator results in a dark panel | Puts the key numbers (coverage and take-home pay) in focus |
 | `[LOGO]` text slot | The logo has not been decided yet |
 
+## Design pass 2 (Nov 12, 2026)
+
+The first version looked plain. The second pass added:
+
+- **Home hero:** a dark cedar hero with a grid texture and soft glows, and a product preview built in code (course path, calculator result and Deal Team cards) instead of empty space.
+- **Header:** a sticky, translucent header with pill navigation that marks the active page, and buttons with arrows and depth.
+- **Home sections:**
+  - a strip naming the public sources the readings link to
+  - a stats band
+  - module-path phase cards with icons
+  - a bento grid of features
+  - "How it works" steps
+  - an FAQ accordion
+  - a closing call to action
+- **Inner pages:** a shared header band (`PageHeader`) used across them.
+- **Dashboard and pricing:** a dark dashboard header and a dark pricing card.
+- **Calculator:** numbers now show thousands separators.
+- **Icons:** `lucide-react`.
+- **Motion:** subtle rise and float animations, which are switched off when the user prefers reduced motion.
+
 ## Screenshots
 
 See `docs/screenshots/`:

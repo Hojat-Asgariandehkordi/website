@@ -5,6 +5,7 @@ import { currentUser } from "@/lib/auth";
 import { getDb } from "@/lib/db";
 import { listTeam } from "@/lib/repo";
 import { TeamManager } from "@/components/TeamManager";
+import { PageHeader } from "@/components/PageHeader";
 
 export const metadata: Metadata = { title: "Deal Team" };
 export const dynamic = "force-dynamic";
@@ -25,23 +26,17 @@ export default async function DealTeamPage() {
   const user = await currentUser();
   const members = user ? listTeam(getDb(), user.id) : [];
   return (
-    <div className="container-page pt-14">
-      <header className="max-w-3xl">
-        <p className="eyebrow">Deal Team</p>
-        <h1 className="mt-3 text-5xl">You don&apos;t buy a business alone</h1>
-        <p className="mt-4 text-lg text-ink-soft">
-          Every acquisition needs a small group of professionals. Learn what each one does, what they don&apos;t do, when you need them and what to ask. Then keep a private list of your own team.
-        </p>
-      </header>
-
-      <nav aria-label="Roles" className="mt-10 flex flex-wrap gap-2">
+    <>
+      <PageHeader eyebrow="Deal Team" title="You don’t buy a business alone" intro="Every acquisition needs a small group of professionals. Learn what each one does, what they don’t do, when you need them and what to ask. Then keep a private list of your own team." />
+    <div className="container-page">
+      <nav aria-label="Roles" className="sticky top-[68px] z-20 -mx-5 mt-0 border-b border-line/60 bg-paper/85 px-5 py-4 backdrop-blur sm:-mx-8 sm:px-8 flex flex-wrap gap-2">
         {roles.map((r) => <a key={r.slug} href={`#${r.slug}`} className="tag border border-line bg-paper-card px-3 py-1.5 text-sm font-medium text-ink hover:border-cedar-300">{r.title}</a>)}
         <a href="#my-team" className="tag bg-cedar-700 px-3 py-1.5 text-sm font-medium text-paper">My team</a>
       </nav>
 
       <div className="mt-12 space-y-8">
         {roles.map((r) => (
-          <section key={r.slug} id={r.slug} aria-labelledby={`${r.slug}-h`} className="card scroll-mt-24 p-7 sm:p-9">
+          <section key={r.slug} id={r.slug} aria-labelledby={`${r.slug}-h`} className="card scroll-mt-40 p-7 sm:p-9">
             <div className="flex flex-wrap items-center gap-3">
               <h2 id={`${r.slug}-h`} className="text-3xl">{r.title}</h2>
               {r.newcomerOnly && <span className="tag bg-clay-100 text-clay-700">For newcomers</span>}
@@ -62,7 +57,7 @@ export default async function DealTeamPage() {
         ))}
       </div>
 
-      <section id="my-team" aria-labelledby="my-team-h" className="mt-16 scroll-mt-24">
+      <section id="my-team" aria-labelledby="my-team-h" className="mt-16 scroll-mt-40">
         <h2 id="my-team-h" className="text-3xl">My team</h2>
         <p className="mt-2 max-w-2xl text-ink-soft">
           A private list only you can see. NextOwner has no public directory and never contacts anyone on your behalf.
@@ -76,5 +71,6 @@ export default async function DealTeamPage() {
         </div>
       </section>
     </div>
+    </>
   );
 }

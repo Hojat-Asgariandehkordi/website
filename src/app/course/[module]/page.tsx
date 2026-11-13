@@ -32,17 +32,20 @@ export default async function ModulePage({ params }: { params: Promise<{ module:
   const toolHref = m.relatedTool.status === "working" ? `/tools/${m.relatedTool.slug}` : "/tools#planned";
 
   return (
-    <article className="container-page pt-10">
+    <article>
+      <div className="relative overflow-hidden border-b border-line/70 bg-gradient-to-b from-cedar-50 to-paper">
+      <div aria-hidden="true" className="bg-grid-ink absolute inset-0 [mask-image:radial-gradient(ellipse_at_top,black,transparent_70%)]" />
+      <div className="container-page relative pb-14 pt-10">
       <nav aria-label="Breadcrumb" className="text-sm text-ink-soft">
         <Link href="/course" className="hover:text-cedar-700">Course</Link> <span aria-hidden="true">/</span> Module {m.number}
       </nav>
       <header className="mt-6 grid gap-10 lg:grid-cols-[1.4fr_1fr]">
         <div>
           <div className="flex flex-wrap items-center gap-2">
-            <span className="eyebrow">Module {m.number} · {m.phase}</span>
+            <span className="pill">Module {m.number} · {m.phase}</span>
             {m.freePreview && <span className="tag bg-cedar-100 text-cedar-900">Free preview</span>}
           </div>
-          <h1 className="mt-3 text-4xl sm:text-5xl">{m.title}</h1>
+          <h1 className="mt-4 text-4xl sm:text-6xl">{m.title}</h1>
           <p className="mt-4 text-lg text-ink-soft">{m.summary}</p>
           {m.reviewNotice && <div className="mt-6"><ReviewNotice /></div>}
         </div>
@@ -53,7 +56,9 @@ export default async function ModulePage({ params }: { params: Promise<{ module:
           </Link>
         </div>
       </header>
-
+      </div>
+      </div>
+      <div className="container-page">
       <div className="mt-14 grid gap-14 lg:grid-cols-[1.4fr_1fr]">
         <div className="space-y-14">
           <section aria-labelledby="outcomes">
@@ -85,7 +90,7 @@ export default async function ModulePage({ params }: { params: Promise<{ module:
             </ol>
           </section>
 
-          <section aria-labelledby="output" className="rounded-2xl bg-cedar-900 p-8 text-paper">
+          <section aria-labelledby="output" className="relative overflow-hidden rounded-3xl bg-cedar-900 p-8 text-paper shadow-lift sm:p-10">
             <p className="eyebrow text-cedar-100">Practical output</p>
             <h2 id="output" className="mt-2 text-3xl text-paper">{m.practicalOutput.title}</h2>
             <p className="mt-3 text-paper/80">{m.practicalOutput.description}</p>
@@ -140,6 +145,7 @@ export default async function ModulePage({ params }: { params: Promise<{ module:
         {prev ? <Link className="link" href={`/course/${prev.slug}`}>← Module {prev.number}: {prev.title}</Link> : <span />}
         {next ? <Link className="link text-right" href={`/course/${next.slug}`}>Module {next.number}: {next.title} →</Link> : <span />}
       </nav>
+      </div>
     </article>
   );
 }

@@ -6,6 +6,8 @@ import { currentUser } from "@/lib/auth";
 import { getDb } from "@/lib/db";
 import { getCompletedLessons } from "@/lib/repo";
 import { ProgressBar } from "@/components/ProgressBar";
+import { PageHeader } from "@/components/PageHeader";
+import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = { title: "Course" };
 export const dynamic = "force-dynamic";
@@ -18,22 +20,15 @@ export default async function CoursePage() {
   const totalLessons = modules.reduce((n, m) => n + m.lessons.length, 0);
 
   return (
-    <div className="container-page pt-14">
-      <header className="grid gap-8 lg:grid-cols-[1.4fr_1fr] lg:items-end">
-        <div>
-          <p className="eyebrow">Course</p>
-          <h1 className="mt-3 text-5xl">The ETA roadmap</h1>
-          <p className="mt-4 max-w-2xl text-lg text-ink-soft">
-            Twelve modules that follow a real acquisition, in order. Each has written lessons, a video slot, readings from public sources, a practical output and a short quiz.
-          </p>
-        </div>
+    <>
+      <PageHeader eyebrow="Course" title="The ETA roadmap" intro="Twelve modules that follow a real acquisition, in order. Each has written lessons, a video slot, readings from public sources, a practical output and a short quiz.">
         <div className="card p-6">
           {user ? (
             <>
               <ProgressBar done={completed.size} total={totalLessons} label="Lessons completed" />
               {next ? (
                 <Link href={`/course/${next.module.slug}/${next.lesson.slug}`} className="btn-primary mt-5 w-full">
-                  Continue where you left off
+                  Continue where you left off <ArrowRight size={16} aria-hidden="true" />
                 </Link>
               ) : (
                 <p className="mt-4 text-sm text-cedar-700">You have completed every lesson.</p>
@@ -42,18 +37,18 @@ export default async function CoursePage() {
           ) : (
             <>
               <p className="text-[15px] text-ink-soft">Create a free account to save your progress and quiz results.</p>
-              <Link href="/sign-up?next=/course" className="btn-primary mt-4 w-full">Create account</Link>
+              <Link href="/sign-up?next=/course" className="btn-primary mt-4 w-full">Create account <ArrowRight size={16} aria-hidden="true" /></Link>
             </>
           )}
         </div>
-      </header>
-
-      <ol className="mt-14 divide-y divide-line border-y border-line">
+      </PageHeader>
+    <div className="container-page">
+      <ol className="mt-12 grid gap-4">
         {modules.map((m) => {
           const p = moduleProgress(m, completed);
           return (
             <li key={m.slug}>
-              <Link href={`/course/${m.slug}`} className="group grid gap-4 py-7 sm:grid-cols-[72px_1fr_auto] sm:items-center">
+              <Link href={`/course/${m.slug}`} className="card card-hover group grid gap-4 p-6 sm:grid-cols-[72px_1fr_auto] sm:items-center sm:p-7">
                 <span className="font-serif text-5xl leading-none text-cedar-300 group-hover:text-cedar-700" aria-hidden="true">{m.number}</span>
                 <span>
                   <span className="flex flex-wrap items-center gap-2">
@@ -75,5 +70,6 @@ export default async function CoursePage() {
         })}
       </ol>
     </div>
+    </>
   );
 }

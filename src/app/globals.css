@@ -8,23 +8,33 @@
 @layer base {
   html { @apply bg-paper text-ink antialiased; scroll-behavior: smooth; }
   body { @apply font-sans text-[17px] leading-relaxed; font-feature-settings: "ss01", "cv11"; }
-  h1, h2, h3, h4 { @apply font-serif text-ink; font-variation-settings: "SOFT" 50, "WONK" 0; letter-spacing: -0.01em; }
+  h1, h2, h3, h4 { @apply font-serif text-ink; font-variation-settings: "SOFT" 50, "WONK" 0; letter-spacing: -0.02em; }
   ::selection { @apply bg-cedar-100 text-cedar-900; }
-  :focus-visible { outline: 3px solid #A9822C; outline-offset: 3px; border-radius: 4px; }
-  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; animation: none !important; } }
+  :focus-visible { outline: 3px solid #A9822C; outline-offset: 3px; border-radius: 6px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
 }
 
 @layer components {
   .container-page { @apply mx-auto w-full max-w-6xl px-5 sm:px-8; }
   .eyebrow { @apply text-xs font-semibold uppercase tracking-[0.18em] text-cedar-700; }
-  .btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-[15px] font-medium transition-colors disabled:cursor-not-allowed; }
-  .btn-primary { @apply btn bg-cedar-700 text-paper hover:bg-cedar-900; }
-  .btn-secondary { @apply btn border border-cedar-700 text-cedar-700 hover:bg-cedar-50; }
-  .btn-quiet { @apply btn text-cedar-700 underline-offset-4 hover:underline px-0; }
-  .btn-disabled { @apply btn bg-paper-deep text-ink-soft border border-line; }
-  .card { @apply rounded-2xl border border-line bg-paper-card; }
-  .field { @apply mt-1 block w-full rounded-lg border border-line bg-white px-3 py-2 text-[16px] text-ink placeholder:text-ink-faint focus:border-cedar-500; }
+  .pill { @apply inline-flex items-center gap-2 rounded-full border border-cedar-300/50 bg-white/70 px-3 py-1 text-xs font-medium text-cedar-900 shadow-sm backdrop-blur; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-[15px] font-medium transition-all duration-200 disabled:cursor-not-allowed; }
+  .btn-primary { @apply btn bg-cedar-700 text-paper shadow-[0_1px_0_rgba(255,255,255,.15)_inset,0_8px_20px_-8px_rgba(19,42,31,.6)] hover:-translate-y-0.5 hover:bg-cedar-900 hover:shadow-[0_1px_0_rgba(255,255,255,.15)_inset,0_14px_28px_-10px_rgba(19,42,31,.7)]; }
+  .btn-secondary { @apply btn border border-line bg-white text-cedar-900 shadow-sm hover:-translate-y-0.5 hover:border-cedar-300 hover:shadow-soft; }
+  .btn-light { @apply btn bg-paper text-cedar-900 shadow-lg hover:-translate-y-0.5 hover:bg-white; }
+  .btn-ghost-light { @apply btn border border-white/20 bg-white/5 text-paper backdrop-blur hover:bg-white/10; }
+  .btn-quiet { @apply btn px-0 text-cedar-700 underline-offset-4 hover:underline; }
+  .btn-disabled { @apply btn border border-line bg-paper-deep text-ink-soft; }
+  .card { @apply rounded-2xl border border-line/80 bg-paper-card shadow-soft; }
+  .card-hover { @apply transition-all duration-300 hover:-translate-y-1 hover:border-cedar-300/70 hover:shadow-lift; }
+  .field { @apply mt-1 block w-full rounded-xl border border-line bg-white px-3.5 py-2.5 text-[16px] text-ink shadow-sm transition placeholder:text-ink-faint focus:border-cedar-500 focus:ring-4 focus:ring-cedar-100; }
   .label { @apply block text-sm font-medium text-ink; }
-  .link { @apply text-cedar-700 underline decoration-cedar-300 underline-offset-4 hover:decoration-cedar-700; }
+  .link { @apply text-cedar-700 underline decoration-cedar-300 underline-offset-4 transition-colors hover:decoration-cedar-700; }
   .tag { @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-semibold tracking-wide; }
+  .bg-grid { background-image: linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px); background-size: 56px 56px; }
+  .bg-grid-ink { background-image: linear-gradient(rgba(31,61,46,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(31,61,46,.06) 1px, transparent 1px); background-size: 48px 48px; }
+  .text-gradient { @apply bg-gradient-to-r from-brass-100 via-[#E9D59B] to-[#C9A75A] bg-clip-text text-transparent; }
 }

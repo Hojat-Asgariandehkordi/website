@@ -31,20 +31,25 @@ export default async function DashboardPage() {
   const roleTitle = (s: string) => getRoles().find((r) => r.slug === s)?.title ?? s;
 
   return (
-    <div className="container-page pt-12">
-      <header className="flex flex-wrap items-end justify-between gap-6">
+    <>
+    <div className="relative overflow-hidden bg-cedar-900 text-paper">
+      <div aria-hidden="true" className="bg-grid absolute inset-0 [mask-image:radial-gradient(ellipse_at_top_left,black,transparent_70%)]" />
+      <div aria-hidden="true" className="absolute -right-24 -top-24 h-72 w-72 rounded-full bg-brass-500/25 blur-[100px]" />
+      <header className="container-page relative flex flex-wrap items-end justify-between gap-6 pb-24 pt-14">
         <div>
-          <p className="eyebrow">Dashboard</p>
-          <h1 className="mt-2 text-5xl">Hello, {user.name.split(" ")[0]}</h1>
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-cedar-100">Dashboard</p>
+          <h1 className="mt-2 text-5xl text-paper">Hello, {user.name.split(" ")[0]}</h1>
+          <p className="mt-2 text-paper/70">{completed.size} of {totalLessons} lessons done · {checked.size} checklist {checked.size === 1 ? "item" : "items"} · {team.length} {team.length === 1 ? "person" : "people"} on your team</p>
         </div>
         {next && (
-          <Link href={`/course/${next.module.slug}/${next.lesson.slug}`} className="btn-primary px-6 py-3">
+          <Link href={`/course/${next.module.slug}/${next.lesson.slug}`} className="btn-light px-6 py-3">
             Continue where you left off
           </Link>
         )}
       </header>
-
-      <div className="mt-10 grid gap-6 lg:grid-cols-3">
+    </div>
+    <div className="container-page">
+      <div className="relative -mt-14 grid gap-6 lg:grid-cols-3">
         <section aria-labelledby="progress-h" className="card p-7 lg:col-span-2">
           <h2 id="progress-h" className="text-2xl">Course progress</h2>
           <div className="mt-4"><ProgressBar done={completed.size} total={totalLessons} label="Lessons completed" /></div>
@@ -128,5 +133,6 @@ export default async function DashboardPage() {
         </section>
       </div>
     </div>
+    </>
   );
 }

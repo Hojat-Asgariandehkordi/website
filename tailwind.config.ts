@@ -18,7 +18,20 @@ const config: Config = {
         sans: ['"Inter Variable"', "system-ui", "sans-serif"],
       },
       maxWidth: { prose: "68ch" },
-      borderRadius: { xl: "14px", "2xl": "20px" },
+      borderRadius: { xl: "14px", "2xl": "20px", "3xl": "28px" },
+      boxShadow: {
+        soft: "0 1px 2px rgba(19,42,31,.04), 0 8px 24px -8px rgba(19,42,31,.10)",
+        lift: "0 2px 4px rgba(19,42,31,.04), 0 24px 48px -16px rgba(19,42,31,.22)",
+        glow: "0 0 0 1px rgba(255,255,255,.06), 0 30px 80px -20px rgba(0,0,0,.55)",
+      },
+      keyframes: {
+        rise: { "0%": { opacity: "0", transform: "translateY(14px)" }, "100%": { opacity: "1", transform: "none" } },
+        float: { "0%,100%": { transform: "translateY(0)" }, "50%": { transform: "translateY(-8px)" } },
+      },
+      animation: {
+        rise: "rise .7s cubic-bezier(.2,.7,.2,1) both",
+        float: "float 7s ease-in-out infinite",
+      },
     },
   },
   plugins: [typography],

@@ -24,9 +24,12 @@ export function AffordabilityCalculator({ scenarios, signedIn }: { scenarios: Sc
   const [state, saveAction, pending] = useActionState<ScenarioState, FormData>(saveScenarioAction, undefined);
 
   const set = (k: keyof CalculatorInputs, v: string) => {
-    const n = v === "" ? 0 : Number(v);
+    const clean = v.replace(/[^0-9.]/g, "");
+    const n = clean === "" ? 0 : Number(clean);
     if (Number.isFinite(n) && n >= 0) setInputs((p) => ({ ...p, [k]: n }));
   };
+  const display = (k: keyof CalculatorInputs, money: boolean) =>
+    money ? inputs[k].toLocaleString("en-CA", { maximumFractionDigits: 2 }) : String(inputs[k]);
 
   const dscr = r.debtServiceCoverage;
   const outputs: { label: string; value: string; note?: string; strong?: boolean }[] = [
@@ -41,19 +44,18 @@ export function AffordabilityCalculator({ scenarios, signedIn }: { scenarios: Sc
 
   return (
     <div className="grid gap-10 lg:grid-cols-[1fr_1.05fr]">
-      <form className="card space-y-5 p-7" onSubmit={(e) => e.preventDefault()} aria-label="Calculator inputs">
+      <form className="card grid gap-5 p-7 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()} aria-label="Calculator inputs">
         {FIELDS.map((f) => (
-          <div key={f.key}>
+          <div key={f.key} className={f.prefix ? "sm:col-span-2" : ""}>
             <label htmlFor={f.key} className="label">{f.label}</label>
             <div className="relative mt-1">
               {f.prefix && <span aria-hidden="true" className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-ink-soft">{f.prefix}</span>}
               <input
                 id={f.key}
-                type="number"
+                type="text"
                 inputMode="decimal"
-                min={0}
-                step={f.step}
-                value={inputs[f.key]}
+                autoComplete="off"
+                value={display(f.key, Boolean(f.prefix))}
                 onChange={(e) => set(f.key, e.target.value)}
                 className={`field mt-0 ${f.prefix ? "pl-7" : ""} ${f.suffix ? "pr-16" : ""}`}
                 aria-describedby={f.hint ? `${f.key}-hint` : undefined}
@@ -63,13 +65,14 @@ export function AffordabilityCalculator({ scenarios, signedIn }: { scenarios: Sc
             {f.hint && <p id={`${f.key}-hint`} className="mt-1 text-xs text-ink-soft">{f.hint}</p>}
           </div>
         ))}
-        <button type="button" className="btn-quiet text-sm" onClick={() => setInputs(DEFAULT_INPUTS)}>Reset to example</button>
+        <button type="button" className="btn-quiet justify-self-start text-sm sm:col-span-2" onClick={() => setInputs(DEFAULT_INPUTS)}>Reset to example</button>
       </form>
 
-      <div className="space-y-8">
-        <section aria-labelledby="results-h" aria-live="polite" className="rounded-2xl bg-cedar-900 p-7 text-paper">
-          <h2 id="results-h" className="text-2xl text-paper">Results</h2>
-          <dl className="mt-5 divide-y divide-paper/15">
+      <div className="space-y-6">
+        <section aria-labelledby="results-h" aria-live="polite" className="relative overflow-hidden rounded-3xl bg-cedar-900 p-7 text-paper shadow-lift lg:sticky lg:top-24">
+          <div aria-hidden="true" className="absolute -right-20 -top-20 h-56 w-56 rounded-full bg-brass-500/25 blur-[90px]" />
+          <h2 id="results-h" className="relative text-2xl text-paper">Results</h2>
+          <dl className="relative mt-5 divide-y divide-paper/15">
             {outputs.map((o) => (
               <div key={o.label} className="grid grid-cols-[1fr_auto] gap-4 py-3">
                 <dt>
