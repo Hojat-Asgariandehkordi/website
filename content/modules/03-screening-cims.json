@@ -1,0 +1,131 @@
+{
+  "number": 3,
+  "slug": "screening-cims",
+  "title": "Screening a CIM and small-business financials",
+  "phase": "Find",
+  "summary": "Read a confidential information memorandum quickly, understand SDE versus EBITDA, and spot red flags early.",
+  "freePreview": false,
+  "reviewNotice": false,
+  "outcomes": [
+    "Describe what a CIM contains and what it leaves out.",
+    "Explain SDE and EBITDA and when each is used.",
+    "Spot common red flags in small-business financials.",
+    "Write a short screening memo."
+  ],
+  "video": {
+    "url": null,
+    "presenter": null
+  },
+  "lessons": [
+    {
+      "slug": "reading-a-cim",
+      "title": "Reading a CIM in an hour",
+      "minutes": 14,
+      "body": "A confidential information memorandum, or CIM, is the seller's marketing document. It is useful and it is written to sell. Read it to decide whether to spend more time, not to decide whether to buy.\n\n## What a CIM usually contains\n- A business overview and history\n- Products, services and customers\n- Staff and the owner's role\n- Summary financials for recent years\n- The reason for sale and, sometimes, an asking price\n\n## A one-hour routine\n1. **Read the reason for sale.** Retirement is common and reassuring. A vague reason deserves a question.\n2. **Find the owner's role.** If the owner is the main salesperson or the only licensed person, transition risk is high.\n3. **Look at customer concentration.** If one customer is a large share of revenue, ask what happens if they leave.\n4. **Scan three years of revenue and cash flow.** Is it stable, growing or falling?\n5. **Check it against your thesis.** If it fails a deal-breaker, stop.",
+      "video": {
+        "url": null,
+        "presenter": null
+      }
+    },
+    {
+      "slug": "sde-vs-ebitda",
+      "title": "SDE, EBITDA and red flags",
+      "minutes": 16,
+      "body": "## Seller's discretionary earnings (SDE)\nSDE is the cash flow available to **one full-time owner-operator** before debt payments. It usually starts from pre-tax profit and adds back the owner's salary and benefits, interest, depreciation and amortization, and one-time or personal expenses run through the business. SDE is common for smaller, owner-run businesses.\n\n## EBITDA\nEBITDA is earnings before interest, taxes, depreciation and amortization. Unlike SDE, it treats a market-rate salary for the manager as a cost. It is more common for larger businesses that have a management team.\n\n## Why the difference matters\nIf a business shows SDE and you plan to hire a general manager, subtract that manager's market salary to get closer to EBITDA. Comparing an SDE figure for one business with an EBITDA figure for another will mislead you.\n\n## Red flags to note, not panic about\n- Cash flow that jumps right before the sale\n- Large add-backs with little support\n- Revenue that relies on one customer, one supplier or one key employee\n- Financial statements that do not match tax returns\n- Deferred maintenance on equipment or premises\n- Owner unwilling to stay for any transition period\n\n## Practical output\nWrite a one-page **screening memo**: the business in two sentences, how it fits your thesis, key numbers, red flags and three questions for the seller. Then decide: pass, or request more information.",
+      "video": {
+        "url": null,
+        "presenter": null
+      }
+    }
+  ],
+  "readings": [
+    {
+      "title": "Buying a Business in Canada: practical guide",
+      "source": "BDC",
+      "url": "https://www.bdc.ca/en/articles-tools/entrepreneur-toolkit/guides/buying-business-canada",
+      "access": "FREE",
+      "note": "A plain-language Canadian walkthrough: finding a company, valuation versus price, closing and taking over."
+    },
+    {
+      "title": "HBR Guide to Buying a Small Business (Ruback and Yudkoff)",
+      "source": "Harvard Business Review Press",
+      "url": "https://store.hbr.org/product/hbr-guide-to-buying-a-small-business/10090",
+      "access": "PAID",
+      "note": "A full book on the search, valuation, financing and closing. US-focused; translate the financing chapters to Canadian programs."
+    },
+    {
+      "title": "Search fund research and the Primer on Search Funds",
+      "source": "Stanford GSB Center for Entrepreneurial Studies",
+      "url": "https://www.gsb.stanford.edu/experience/about/centers-institutes/ces/research/search-funds",
+      "access": "FREE",
+      "note": "The widely used primer on the search fund model, plus the recurring search fund study."
+    }
+  ],
+  "practicalOutput": {
+    "title": "Screening memo",
+    "description": "A one-page decision memo on whether to spend more time on an opportunity.",
+    "steps": [
+      "Summarize the business in two sentences.",
+      "Score its fit against each thesis criterion (fit / partial / no).",
+      "Record revenue and SDE or EBITDA for three years.",
+      "List red flags.",
+      "Write three questions for the seller and a pass or proceed decision."
+    ]
+  },
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "What is a CIM?",
+      "options": [
+        "A bank loan agreement",
+        "The seller's marketing document about the business",
+        "A government registration",
+        "An independent audit"
+      ],
+      "answer": 1,
+      "explanation": "A CIM is prepared on the seller's side to describe the business to buyers."
+    },
+    {
+      "id": "q2",
+      "question": "Which earnings measure adds back one owner's salary?",
+      "options": [
+        "EBITDA",
+        "SDE",
+        "Net income",
+        "Gross margin"
+      ],
+      "answer": 1,
+      "explanation": "SDE shows cash flow available to one owner-operator, so it adds back the owner's compensation."
+    },
+    {
+      "id": "q3",
+      "question": "You plan to hire a general manager for a business marketed on SDE. What should you do?",
+      "options": [
+        "Use SDE as is",
+        "Subtract the manager's market salary",
+        "Double the SDE",
+        "Ignore cash flow"
+      ],
+      "answer": 1,
+      "explanation": "Subtracting a market salary for the manager gets you closer to EBITDA and to what you will actually earn."
+    },
+    {
+      "id": "q4",
+      "question": "Which is a red flag worth investigating?",
+      "options": [
+        "The owner is retiring",
+        "Three years of steady revenue",
+        "One customer is half of all sales",
+        "Clean, organized statements"
+      ],
+      "answer": 2,
+      "explanation": "Heavy customer concentration means losing one customer could hurt the business badly."
+    }
+  ],
+  "relatedTool": {
+    "slug": "cim-teardown",
+    "label": "CIM teardown (planned)",
+    "status": "planned"
+  },
+  "newcomerSupplements": []
+}

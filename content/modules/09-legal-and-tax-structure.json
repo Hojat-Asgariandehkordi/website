@@ -1,0 +1,141 @@
+{
+  "number": 9,
+  "slug": "legal-and-tax-structure",
+  "title": "Legal and tax structure",
+  "phase": "Verify and structure",
+  "summary": "Understand share versus asset purchases, the purchase agreement, and representations and warranties, so you can ask your lawyer and CPA good questions.",
+  "freePreview": false,
+  "reviewNotice": true,
+  "outcomes": [
+    "Explain the general difference between a share purchase and an asset purchase.",
+    "Describe the main parts of a purchase agreement.",
+    "Explain representations, warranties and indemnities.",
+    "Prepare questions for your lawyer and CPA."
+  ],
+  "video": {
+    "url": null,
+    "presenter": null
+  },
+  "lessons": [
+    {
+      "slug": "share-vs-asset",
+      "title": "Share purchase or asset purchase",
+      "minutes": 16,
+      "body": "You can buy a company in two broad ways. The choice affects tax, liability and paperwork for both sides, so it is often negotiated. Your lawyer and CPA must advise on a real deal; this lesson only explains the general idea.\n\n## Share purchase\nYou buy the shares of the corporation that owns the business. The company stays the same legal entity, with its contracts, permits, employees and **its history, including liabilities**, known or unknown. Sellers often prefer share sales because of how the proceeds may be taxed, which can make it a negotiating point.\n\n## Asset purchase\nYou buy selected assets, such as equipment, inventory, customer lists and the business name, usually through your own new company. You can leave many liabilities behind. Buyers often prefer this for liability reasons and because of how the purchase price can be allocated across assets for tax. Contracts, leases and permits may need consent or re-application.\n\n## Why it is negotiated\nWhat is better for one side can cost the other. Sometimes the price is adjusted to reflect the tax difference. Ask your advisors to model both options.",
+      "video": {
+        "url": null,
+        "presenter": null
+      }
+    },
+    {
+      "slug": "purchase-agreement",
+      "title": "The purchase agreement",
+      "minutes": 14,
+      "body": "The purchase agreement is the binding contract that replaces your LOI. Your lawyer drafts or reviews it. Knowing its parts helps you give clear instructions.\n\n## Main parts\n- **Parties, price and payment terms,** including any seller note, earn-out or holdback\n- **Working capital adjustment,** if the business must be delivered with a set level of working capital\n- **Representations and warranties:** statements of fact by the seller, such as \"the financial statements are accurate\" or \"there are no undisclosed lawsuits\"\n- **Indemnities:** promises to compensate if a representation proves false, usually with limits on time and amount\n- **Conditions to closing:** financing, consents, no major adverse change\n- **Covenants:** what each side will or will not do before and after closing, such as non-competition by the seller\n- **Transition terms** for the seller\n\n## Practical output\nWrite your **questions for your lawyer and CPA**. Good questions show you have done your homework and make advisor time cheaper. For example: \"Which structure do you recommend for this deal, and why?\", \"Which representations matter most given our diligence findings?\" and \"How should we allocate the price across assets?\"",
+      "video": {
+        "url": null,
+        "presenter": null
+      }
+    }
+  ],
+  "readings": [
+    {
+      "title": "Buying a Business in Canada: practical guide",
+      "source": "BDC",
+      "url": "https://www.bdc.ca/en/articles-tools/entrepreneur-toolkit/guides/buying-business-canada",
+      "access": "FREE",
+      "note": "A plain-language Canadian walkthrough: finding a company, valuation versus price, closing and taking over."
+    },
+    {
+      "title": "Federation of Law Societies of Canada",
+      "source": "FLSC",
+      "url": "https://flsc.ca/",
+      "access": "FREE",
+      "note": "Links to every provincial and territorial law society, where you can find a licensed lawyer."
+    },
+    {
+      "title": "CPA Canada",
+      "source": "Chartered Professional Accountants of Canada",
+      "url": "https://www.cpacanada.ca/",
+      "access": "FREE",
+      "note": "The national body for accountants. Provincial CPA bodies list licensed public accountants."
+    },
+    {
+      "title": "Corporations Canada",
+      "source": "Innovation, Science and Economic Development Canada",
+      "url": "https://ised-isde.canada.ca/site/corporations-canada/en",
+      "access": "FREE",
+      "note": "Search federal corporations and learn how incorporation works. Provincial registries hold provincially incorporated companies."
+    }
+  ],
+  "practicalOutput": {
+    "title": "Questions for your lawyer and CPA",
+    "description": "A prioritized list of questions that makes advisor meetings faster and cheaper.",
+    "steps": [
+      "Write five questions on deal structure (share or asset).",
+      "Write five questions on the purchase agreement.",
+      "Write five tax questions for your CPA.",
+      "Link each question to a diligence finding where possible.",
+      "Rank them so the most important come first."
+    ]
+  },
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "In a share purchase, what generally happens to the company's existing liabilities?",
+      "options": [
+        "They disappear",
+        "They stay with the company you now own",
+        "The government pays them",
+        "The broker takes them"
+      ],
+      "answer": 1,
+      "explanation": "The legal entity continues, so its history, including liabilities, stays with it."
+    },
+    {
+      "id": "q2",
+      "question": "Why do buyers often prefer asset purchases, in general?",
+      "options": [
+        "They never need a lawyer",
+        "They can leave many liabilities behind",
+        "Banks require it by law",
+        "They are always cheaper"
+      ],
+      "answer": 1,
+      "explanation": "Buyers can choose which assets to buy and leave many liabilities behind. Advisors confirm what is right for a specific deal."
+    },
+    {
+      "id": "q3",
+      "question": "What is a representation in a purchase agreement?",
+      "options": [
+        "A statement of fact by a party, such as the accuracy of the financials",
+        "A marketing brochure",
+        "A bank's approval",
+        "The broker's fee"
+      ],
+      "answer": 0,
+      "explanation": "Representations are statements of fact the other side relies on."
+    },
+    {
+      "id": "q4",
+      "question": "What does an indemnity do?",
+      "options": [
+        "Sets the price",
+        "Promises compensation if a representation proves false",
+        "Transfers the business name",
+        "Registers the company"
+      ],
+      "answer": 1,
+      "explanation": "Indemnities allocate the cost of a false representation, usually within limits."
+    }
+  ],
+  "relatedTool": {
+    "slug": "who-handles-this",
+    "label": "Who handles this? (planned)",
+    "status": "planned"
+  },
+  "newcomerSupplements": [
+    "immigration-status-and-ownership",
+    "deal-team-for-newcomers"
+  ]
+}

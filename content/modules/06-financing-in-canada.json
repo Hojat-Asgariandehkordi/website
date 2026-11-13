@@ -1,0 +1,141 @@
+{
+  "number": 6,
+  "slug": "financing-in-canada",
+  "title": "Financing in Canada",
+  "phase": "Finance and negotiate",
+  "summary": "Understand the Canadian capital stack: banks, BDC, the CSBFP, vendor take-back, earn-outs and equity.",
+  "freePreview": false,
+  "reviewNotice": true,
+  "outcomes": [
+    "Describe each layer of a typical acquisition capital stack.",
+    "Explain the role of BDC and the Canada Small Business Financing Program.",
+    "Explain vendor take-back notes and earn-outs.",
+    "Prepare a lender pack checklist."
+  ],
+  "video": {
+    "url": null,
+    "presenter": null
+  },
+  "lessons": [
+    {
+      "slug": "capital-stack",
+      "title": "The capital stack",
+      "minutes": 16,
+      "body": "A **capital stack** is the list of money sources that together pay the purchase price. A typical small-business acquisition in Canada combines several of these.\n\n## Senior debt from a bank or BDC\nChartered banks, credit unions and BDC lend against the business's cash flow and assets. BDC, a federal Crown corporation, offers a business purchase or transfer loan. Lenders look at cash flow, your experience, your equity and your personal credit. Expect to give a personal guarantee.\n\n## The Canada Small Business Financing Program (CSBFP)\nThe CSBFP is a federal program delivered **through participating lenders**: you apply at a bank or credit union, not with the government. It shares the lender's risk on loans for specific asset types. Eligibility rules, limits and the treatment of an asset purchase versus a share purchase are set by the program, so confirm the current rules on the program page and with your lender.\n\n## Vendor take-back (seller note)\nThe seller agrees to be paid part of the price over time. It shows the seller believes in the business, reduces the cash you need at closing and keeps the seller interested in a good transition. Lenders often want the seller note to rank behind their loan.\n\n## Earn-out\nPart of the price depends on future results, such as revenue in the next two years. It bridges a gap when you and the seller disagree on value. Earn-outs need precise definitions, or they cause disputes.\n\n## Equity\nYour own savings, and sometimes investors or partners. Lenders want to see you have money at risk.",
+      "video": {
+        "url": null,
+        "presenter": null
+      }
+    },
+    {
+      "slug": "lender-pack",
+      "title": "Debt service coverage and your lender pack",
+      "minutes": 16,
+      "body": "## Debt service coverage\nLenders ask whether the business can comfortably pay its debts. **Debt service coverage** is annual cash flow divided by annual debt payments. A ratio of 1.0 means every dollar of cash flow goes to debt, with nothing left for you, surprises or reinvestment. Lenders set their own minimums, so ask each lender what they require. Use the affordability calculator to test your structure.\n\n## Remember your own pay\nCoverage is about the lender. Your household also needs income. Check what is left for you each month after debt service.\n\n## What a lender pack usually includes\n- Your personal fit statement and résumé\n- A personal net worth statement and credit report\n- The CIM and three years of financial statements and tax returns\n- Your adjusted earnings sheet and valuation range\n- A proposed capital stack and the letter of intent, if signed\n- A short plan for the first year of ownership\n\n## Practical output\nDraft your **capital stack** for a sample deal and a **lender pack checklist**. This is educational: NextOwner makes no claims about whether any lender will approve a loan.",
+      "video": {
+        "url": null,
+        "presenter": null
+      }
+    }
+  ],
+  "readings": [
+    {
+      "title": "Canada Small Business Financing Program (CSBFP)",
+      "source": "Innovation, Science and Economic Development Canada",
+      "url": "https://ised-isde.canada.ca/site/canada-small-business-financing-program/en",
+      "access": "FREE",
+      "note": "The federal loan-sharing program offered through participating lenders. Check current limits and eligible uses here."
+    },
+    {
+      "title": "Business Purchase or Transfer Loan",
+      "source": "BDC",
+      "url": "https://www.bdc.ca/en/financing/buy-transfer-a-business-loan",
+      "access": "FREE",
+      "note": "BDC's acquisition loan page. Read it to see what one Canadian lender asks for."
+    },
+    {
+      "title": "Business loan calculator",
+      "source": "BDC",
+      "url": "https://www.bdc.ca/en/articles-tools/entrepreneur-toolkit/financial-tools/business-loan-calculator",
+      "access": "FREE",
+      "note": "Cross-check your own payment math."
+    },
+    {
+      "title": "HBR Guide to Buying a Small Business (Ruback and Yudkoff)",
+      "source": "Harvard Business Review Press",
+      "url": "https://store.hbr.org/product/hbr-guide-to-buying-a-small-business/10090",
+      "access": "PAID",
+      "note": "A full book on the search, valuation, financing and closing. US-focused; translate the financing chapters to Canadian programs."
+    }
+  ],
+  "practicalOutput": {
+    "title": "Capital stack and lender pack checklist",
+    "description": "A proposed mix of financing for a sample deal, and the documents you would bring to a lender.",
+    "steps": [
+      "Pick a sample price and adjusted cash flow.",
+      "Split the price into equity, senior debt, seller note and any earn-out.",
+      "Check coverage and take-home pay in the calculator.",
+      "List every document a lender is likely to ask for.",
+      "Note which items you already have and which you need."
+    ]
+  },
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "How do you apply for a CSBFP loan?",
+      "options": [
+        "Directly with the federal government",
+        "Through a participating lender such as a bank or credit union",
+        "Through a broker only",
+        "Through the seller"
+      ],
+      "answer": 1,
+      "explanation": "The CSBFP is delivered through participating lenders."
+    },
+    {
+      "id": "q2",
+      "question": "What is a vendor take-back?",
+      "options": [
+        "A refund from the seller",
+        "The seller financing part of the price, repaid over time",
+        "A government grant",
+        "A broker fee"
+      ],
+      "answer": 1,
+      "explanation": "A VTB is a seller note: part of the price is paid to the seller over time."
+    },
+    {
+      "id": "q3",
+      "question": "Debt service coverage of 1.0 means…",
+      "options": [
+        "cash flow is double the debt payments",
+        "all cash flow goes to debt payments",
+        "there is no debt",
+        "the loan is approved"
+      ],
+      "answer": 1,
+      "explanation": "At 1.0, cash flow exactly equals debt service, leaving nothing for anything else."
+    },
+    {
+      "id": "q4",
+      "question": "When is an earn-out most useful?",
+      "options": [
+        "When buyer and seller disagree on future performance",
+        "When the business has no revenue",
+        "When the bank requires it by law",
+        "Never"
+      ],
+      "answer": 0,
+      "explanation": "An earn-out ties part of the price to results, bridging a value gap."
+    }
+  ],
+  "relatedTool": {
+    "slug": "affordability",
+    "label": "Affordability calculator",
+    "status": "working"
+  },
+  "newcomerSupplements": [
+    "building-canadian-credit",
+    "financing-conversations"
+  ]
+}

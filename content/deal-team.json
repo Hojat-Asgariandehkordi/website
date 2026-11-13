@@ -1,0 +1,262 @@
+[
+  {
+    "slug": "business-broker",
+    "title": "Business broker",
+    "summary": "Represents sellers, markets businesses and runs the sale process.",
+    "does": [
+      "Prepares the listing, teaser and CIM",
+      "Screens buyers and manages confidentiality agreements",
+      "Runs the process and relays offers",
+      "Keeps the deal moving to closing"
+    ],
+    "doesNot": [
+      "Represent you as the buyer (usually)",
+      "Verify the seller's numbers for you",
+      "Give you legal, tax or financing advice"
+    ],
+    "whenYouNeed": [
+      "From the start of your search, as a deal source",
+      "When you respond to a listing or submit an LOI"
+    ],
+    "questions": [
+      "Who do you represent, and how are you paid?",
+      "Why is the owner selling, and why now?",
+      "How were the add-backs prepared?",
+      "What is the process and timeline, and how many buyers are involved?",
+      "Will the seller consider a vendor take-back?"
+    ],
+    "links": []
+  },
+  {
+    "slug": "lawyer",
+    "title": "Lawyer",
+    "summary": "Protects your legal position from LOI to closing.",
+    "does": [
+      "Reviews or drafts the LOI and purchase agreement",
+      "Leads legal due diligence and registry searches",
+      "Advises on share versus asset structure with your CPA",
+      "Coordinates closing documents"
+    ],
+    "doesNot": [
+      "Decide whether the business is a good investment",
+      "Replace your accountant on tax and numbers",
+      "Run the business after closing"
+    ],
+    "whenYouNeed": [
+      "Before you sign an LOI",
+      "Throughout due diligence",
+      "For the purchase agreement and closing"
+    ],
+    "questions": [
+      "How many small-business acquisitions have you handled in the past few years?",
+      "How do you bill: hourly, fixed fee or a mix?",
+      "Which parts of the LOI will be binding?",
+      "Which representations matter most given our diligence?",
+      "What do you need from me, and when?"
+    ],
+    "links": [
+      {
+        "title": "Federation of Law Societies of Canada",
+        "url": "https://flsc.ca/"
+      }
+    ]
+  },
+  {
+    "slug": "accountant",
+    "title": "Accountant or CPA",
+    "summary": "Tests the numbers and plans your tax structure.",
+    "does": [
+      "Reviews financial statements and tax returns",
+      "Supports quality-of-earnings and working-capital analysis",
+      "Advises on tax structure and price allocation",
+      "Sets up bookkeeping and payroll after closing"
+    ],
+    "doesNot": [
+      "Guarantee the seller's numbers are complete",
+      "Give legal advice on contracts",
+      "Arrange your financing"
+    ],
+    "whenYouNeed": [
+      "When you screen serious opportunities",
+      "During due diligence",
+      "Before agreeing to share or asset structure"
+    ],
+    "questions": [
+      "Have you worked on acquisitions of businesses this size?",
+      "Would you recommend a formal quality-of-earnings review for this deal?",
+      "How should we think about share versus asset purchase for tax?",
+      "What working-capital level is normal for this business?",
+      "What will you need from the seller?"
+    ],
+    "links": [
+      {
+        "title": "CPA Canada",
+        "url": "https://www.cpacanada.ca/"
+      }
+    ]
+  },
+  {
+    "slug": "lender",
+    "title": "Lender or banker",
+    "summary": "Provides senior debt and tests whether the deal can carry it.",
+    "does": [
+      "Assesses cash flow, your experience and your equity",
+      "Offers term loans and lines of credit",
+      "May use federal programs such as the CSBFP",
+      "Sets loan conditions and covenants"
+    ],
+    "doesNot": [
+      "Act as your advisor on whether to buy",
+      "Approve every deal that meets a formula",
+      "Value the business for you"
+    ],
+    "whenYouNeed": [
+      "Early, to understand what you could borrow",
+      "After an LOI, for a formal application"
+    ],
+    "questions": [
+      "What debt service coverage do you require?",
+      "How much equity do you expect from a buyer?",
+      "How do you view a vendor take-back, and where must it rank?",
+      "Do you lend under the CSBFP, and how would it apply here?",
+      "What personal guarantees will you ask for?"
+    ],
+    "links": [
+      {
+        "title": "BDC Business Purchase or Transfer Loan",
+        "url": "https://www.bdc.ca/en/financing/buy-transfer-a-business-loan"
+      },
+      {
+        "title": "Canada Small Business Financing Program",
+        "url": "https://ised-isde.canada.ca/site/canada-small-business-financing-program/en"
+      }
+    ]
+  },
+  {
+    "slug": "valuator",
+    "title": "Business valuator",
+    "summary": "Gives an independent opinion of value when the stakes or disagreement are high.",
+    "does": [
+      "Prepares a valuation report with stated assumptions",
+      "Analyzes earnings, risk and comparable transactions",
+      "Can support a lender or settle a disagreement on price"
+    ],
+    "doesNot": [
+      "Set the price you must pay",
+      "Replace due diligence",
+      "Negotiate for you"
+    ],
+    "whenYouNeed": [
+      "For larger or complex deals",
+      "When buyer and seller disagree on value",
+      "When a lender or partner asks for one"
+    ],
+    "questions": [
+      "What type of report do you recommend, and what does it cost?",
+      "Which approaches will you use?",
+      "What information do you need?",
+      "How long will it take?"
+    ],
+    "links": [
+      {
+        "title": "CBV Institute",
+        "url": "https://cbvinstitute.com/"
+      }
+    ]
+  },
+  {
+    "slug": "insurance-advisor",
+    "title": "Insurance advisor",
+    "summary": "Makes sure the business and you are protected from the day you take over.",
+    "does": [
+      "Reviews existing coverage",
+      "Recommends property, liability and other commercial coverage",
+      "Advises on key-person and life insurance a lender may require"
+    ],
+    "doesNot": [
+      "Cover known problems you did not disclose",
+      "Replace legal protections in the purchase agreement"
+    ],
+    "whenYouNeed": [
+      "During due diligence",
+      "Before closing, so coverage starts on day one"
+    ],
+    "questions": [
+      "Is the current coverage adequate for this business?",
+      "What claims history should I know about?",
+      "What will a lender require?",
+      "What gaps do you see?"
+    ],
+    "links": [
+      {
+        "title": "Insurance Bureau of Canada",
+        "url": "https://www.ibc.ca/"
+      }
+    ]
+  },
+  {
+    "slug": "mentor",
+    "title": "Mentor",
+    "summary": "An experienced owner or operator who helps you think clearly.",
+    "does": [
+      "Challenges your thesis and assumptions",
+      "Shares what went wrong in their own deals",
+      "Acts as a sounding board during the transition"
+    ],
+    "doesNot": [
+      "Make decisions for you",
+      "Replace professional advice"
+    ],
+    "whenYouNeed": [
+      "From the start of your search",
+      "Before big decisions",
+      "In the first 100 days"
+    ],
+    "questions": [
+      "What do you wish you had known before you bought?",
+      "What do you see as my biggest blind spot?",
+      "How often can we talk?"
+    ],
+    "links": [
+      {
+        "title": "Futurpreneur mentoring (ages 18–39)",
+        "url": "https://www.futurpreneur.ca/en/"
+      }
+    ]
+  },
+  {
+    "slug": "newcomer-programs",
+    "title": "Settlement and newcomer-business programs",
+    "newcomerOnly": true,
+    "summary": "Free and low-cost services that help newcomers settle and build a business network in Canada.",
+    "does": [
+      "Help with settlement needs, such as language classes and credential guidance",
+      "Offer business workshops and networking for newcomers",
+      "Connect you with local mentors and programs"
+    ],
+    "doesNot": [
+      "Give immigration advice unless they are licensed to",
+      "Finance an acquisition themselves (usually)",
+      "Replace your lawyer or accountant"
+    ],
+    "whenYouNeed": [
+      "As soon as you arrive",
+      "When building your Canadian network and credit"
+    ],
+    "questions": [
+      "Which services do I qualify for?",
+      "Do you run business or entrepreneurship programs?",
+      "Can you introduce me to local owners or mentors?"
+    ],
+    "links": [
+      {
+        "title": "Find free newcomer services near you (IRCC)",
+        "url": "https://ircc.canada.ca/english/newcomers/services/index.asp"
+      },
+      {
+        "title": "BDC: newcomer entrepreneurs",
+        "url": "https://www.bdc.ca/en/i-am/newcomer-entrepreneur"
+      }
+    ]
+  }
+]

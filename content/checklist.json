@@ -1,0 +1,127 @@
+[
+  {
+    "title": "You",
+    "items": [
+      {
+        "key": "fit-statement",
+        "label": "I have written a personal fit statement",
+        "module": "is-buying-right-for-me"
+      },
+      {
+        "key": "household",
+        "label": "I have talked with my household about time, money and risk",
+        "module": "is-buying-right-for-me"
+      },
+      {
+        "key": "equity-range",
+        "label": "I know how much equity I can invest and the cushion I will keep",
+        "module": "is-buying-right-for-me"
+      },
+      {
+        "key": "credit-report",
+        "label": "I have checked my credit report at both bureaus",
+        "module": "financing-in-canada"
+      }
+    ]
+  },
+  {
+    "title": "Your search",
+    "items": [
+      {
+        "key": "thesis",
+        "label": "I have a dated one-page thesis",
+        "module": "acquisition-thesis"
+      },
+      {
+        "key": "target-list",
+        "label": "I have a target list of at least 20 businesses",
+        "module": "sourcing-and-outreach"
+      },
+      {
+        "key": "outreach-letter",
+        "label": "I have a reviewed outreach letter",
+        "module": "sourcing-and-outreach"
+      },
+      {
+        "key": "screening-memo",
+        "label": "I can write a screening memo in about an hour",
+        "module": "screening-cims"
+      }
+    ]
+  },
+  {
+    "title": "Your numbers",
+    "items": [
+      {
+        "key": "sde-ebitda",
+        "label": "I can explain SDE versus EBITDA",
+        "module": "screening-cims"
+      },
+      {
+        "key": "adjusted-earnings",
+        "label": "I have practised building an adjusted earnings sheet",
+        "module": "quality-of-earnings"
+      },
+      {
+        "key": "valuation-range",
+        "label": "I can build a valuation range with assumptions",
+        "module": "valuation-basics"
+      },
+      {
+        "key": "calculator-scenario",
+        "label": "I have saved at least one affordability scenario",
+        "module": "financing-in-canada"
+      }
+    ]
+  },
+  {
+    "title": "Your team",
+    "items": [
+      {
+        "key": "lawyer",
+        "label": "I have spoken with at least one lawyer",
+        "module": "legal-and-tax-structure"
+      },
+      {
+        "key": "accountant",
+        "label": "I have spoken with at least one accountant or CPA",
+        "module": "quality-of-earnings"
+      },
+      {
+        "key": "lender",
+        "label": "I have had a first conversation with a lender",
+        "module": "financing-in-canada"
+      },
+      {
+        "key": "mentor",
+        "label": "I have a mentor I can call",
+        "module": "is-buying-right-for-me"
+      }
+    ]
+  },
+  {
+    "title": "Deal mechanics",
+    "items": [
+      {
+        "key": "lender-pack",
+        "label": "My lender pack checklist is ready",
+        "module": "financing-in-canada"
+      },
+      {
+        "key": "loi-practice",
+        "label": "I have drafted a practice LOI term sheet",
+        "module": "loi-and-negotiation"
+      },
+      {
+        "key": "dd-log",
+        "label": "I have a due-diligence findings log template",
+        "module": "due-diligence"
+      },
+      {
+        "key": "hundred-day",
+        "label": "I have a draft 100-day plan",
+        "module": "closing-and-transition"
+      }
+    ]
+  }
+]

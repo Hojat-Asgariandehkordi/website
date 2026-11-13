@@ -1,0 +1,10 @@
+node_modules/
+.next/
+out/
+data/*.db
+data/*.db-*
+.env
+.env.local
+*.tsbuildinfo
+.DS_Store
+data/demo-credentials.txt

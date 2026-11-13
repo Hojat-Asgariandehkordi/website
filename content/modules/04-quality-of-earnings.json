@@ -1,0 +1,131 @@
+{
+  "number": 4,
+  "slug": "quality-of-earnings",
+  "title": "Quality of earnings and normalization",
+  "phase": "Analyze",
+  "summary": "Test whether the earnings are real and repeatable by examining each add-back and normalizing the numbers.",
+  "freePreview": false,
+  "reviewNotice": true,
+  "outcomes": [
+    "Explain what a quality-of-earnings review tests.",
+    "Classify add-backs as supported, questionable or rejected.",
+    "Normalize owner pay, rent and one-time items.",
+    "Build an adjusted earnings sheet."
+  ],
+  "video": {
+    "url": null,
+    "presenter": null
+  },
+  "lessons": [
+    {
+      "slug": "what-qoe-tests",
+      "title": "What quality of earnings means",
+      "minutes": 12,
+      "body": "The seller's cash flow figure is a claim. A quality-of-earnings (QoE) review asks two questions about it:\n\n1. **Is it real?** Do the numbers tie to bank statements, tax returns and invoices?\n2. **Will it repeat?** Will the business earn this under a new owner, at today's costs?\n\nFor larger deals, buyers and lenders often pay an accounting firm for a formal QoE report. For smaller deals, you may do a lighter version yourself and then confirm the key points with your accountant. Either way, the habits are the same.\n\n## Proof of cash\nCompare reported revenue with deposits in the bank statements for the same months. Large unexplained gaps deserve questions. This is one of the simplest and most useful tests you can run.",
+      "video": {
+        "url": null,
+        "presenter": null
+      }
+    },
+    {
+      "slug": "add-backs",
+      "title": "Add-backs and normalization",
+      "minutes": 18,
+      "body": "Add-backs are expenses the seller says will not continue under a new owner. Each one raises the earnings figure, and so the price. Treat every add-back as a claim that needs support.\n\n## Common add-backs\n- **Owner salary and benefits** (for SDE)\n- **Personal expenses** run through the business, such as a family vehicle\n- **One-time costs**, such as a lawsuit or a rebrand\n- **Non-cash items**, such as depreciation (keep in mind that equipment still needs replacing)\n\n## Normalization adjusts in both directions\nNormalization also **lowers** earnings when costs are below market:\n- The owner's relative works for less than a market wage.\n- Rent is below market because the owner also owns the building, and a new lease will cost more.\n- Maintenance has been deferred and will need spending soon.\n\n## Sort each item\nFor each add-back, record the amount, the evidence and your decision: **supported**, **questionable** or **rejected**. Base your price on supported items only, and treat questionable ones as negotiation points.\n\n## Practical output\nBuild an **adjusted earnings sheet** with reported earnings, each adjustment with its evidence, and your adjusted figure. Ask your accountant to review it before you rely on it.",
+      "video": {
+        "url": null,
+        "presenter": null
+      }
+    }
+  ],
+  "readings": [
+    {
+      "title": "Buying a Business in Canada: practical guide",
+      "source": "BDC",
+      "url": "https://www.bdc.ca/en/articles-tools/entrepreneur-toolkit/guides/buying-business-canada",
+      "access": "FREE",
+      "note": "A plain-language Canadian walkthrough: finding a company, valuation versus price, closing and taking over."
+    },
+    {
+      "title": "CPA Canada",
+      "source": "Chartered Professional Accountants of Canada",
+      "url": "https://www.cpacanada.ca/",
+      "access": "FREE",
+      "note": "The national body for accountants. Provincial CPA bodies list licensed public accountants."
+    },
+    {
+      "title": "HBR Guide to Buying a Small Business (Ruback and Yudkoff)",
+      "source": "Harvard Business Review Press",
+      "url": "https://store.hbr.org/product/hbr-guide-to-buying-a-small-business/10090",
+      "access": "PAID",
+      "note": "A full book on the search, valuation, financing and closing. US-focused; translate the financing chapters to Canadian programs."
+    }
+  ],
+  "practicalOutput": {
+    "title": "Adjusted earnings sheet",
+    "description": "A table that turns reported earnings into earnings you can defend, item by item.",
+    "steps": [
+      "Start from reported pre-tax earnings for each year.",
+      "List every add-back with its amount and evidence.",
+      "Mark each add-back supported, questionable or rejected.",
+      "Add downward adjustments for below-market costs.",
+      "Calculate adjusted earnings and note the open questions for your accountant."
+    ]
+  },
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "Which two questions does a quality-of-earnings review ask?",
+      "options": [
+        "Is it real, and will it repeat?",
+        "Is it legal, and is it taxed?",
+        "Is it growing, and is it famous?",
+        "Is it cheap, and is it close by?"
+      ],
+      "answer": 0,
+      "explanation": "QoE tests whether earnings are accurate and sustainable under a new owner."
+    },
+    {
+      "id": "q2",
+      "question": "The owner's daughter works full-time for half the market wage. What does normalization do?",
+      "options": [
+        "Raises earnings",
+        "Lowers earnings to reflect a market wage",
+        "Ignores it",
+        "Removes her role"
+      ],
+      "answer": 1,
+      "explanation": "Below-market costs will rise under a new owner, so normalization lowers earnings."
+    },
+    {
+      "id": "q3",
+      "question": "What is a 'proof of cash' test?",
+      "options": [
+        "Counting the cash register",
+        "Comparing reported revenue with bank deposits",
+        "Asking the seller to confirm in writing",
+        "Checking the credit score"
+      ],
+      "answer": 1,
+      "explanation": "Tying revenue to bank deposits is a simple test of whether the numbers are real."
+    },
+    {
+      "id": "q4",
+      "question": "How should you treat a questionable add-back?",
+      "options": [
+        "Include it in the price",
+        "Use it as a negotiation point until it is supported",
+        "Ignore every add-back",
+        "Double it"
+      ],
+      "answer": 1,
+      "explanation": "Price on supported items; keep questionable ones open until evidence arrives."
+    }
+  ],
+  "relatedTool": {
+    "slug": "qoe-workbench",
+    "label": "Quality-of-earnings workbench (planned)",
+    "status": "planned"
+  },
+  "newcomerSupplements": []
+}

@@ -1,0 +1,138 @@
+{
+  "number": 5,
+  "slug": "valuation-basics",
+  "title": "Valuation basics",
+  "phase": "Analyze",
+  "summary": "Use multiples and a simple discounted cash flow to build a value range, and separate value from price.",
+  "freePreview": false,
+  "reviewNotice": true,
+  "outcomes": [
+    "Apply an earnings multiple to adjusted earnings.",
+    "Explain the idea behind a discounted cash flow (DCF).",
+    "Explain why price and value differ.",
+    "Produce a valuation range with stated assumptions."
+  ],
+  "video": {
+    "url": null,
+    "presenter": null
+  },
+  "lessons": [
+    {
+      "slug": "multiples",
+      "title": "Multiples: the common shortcut",
+      "minutes": 14,
+      "body": "Most small businesses are priced as a **multiple of earnings**: adjusted SDE or EBITDA multiplied by a number. If adjusted SDE is $400,000 and the multiple is 3, the indicated value is $1.2 million.\n\n## What moves the multiple\n- **Size.** Larger businesses usually sell for higher multiples.\n- **Stability.** Recurring revenue and diverse customers raise the multiple.\n- **Owner dependence.** If the business relies on the owner, the multiple falls.\n- **Growth and industry.** Growing, in-demand sectors attract more buyers.\n\n## Use multiples carefully\nMake sure the multiple matches the earnings measure. A multiple quoted on EBITDA applied to SDE will overstate value. Ask where any \"market multiple\" came from and how similar those deals really were.\n\nNextOwner does not publish multiples or tell you what a business is worth. Use multiples to frame a range, then test it.",
+      "video": {
+        "url": null,
+        "presenter": null
+      }
+    },
+    {
+      "slug": "dcf-and-price",
+      "title": "DCF basics, and price versus value",
+      "minutes": 16,
+      "body": "## A discounted cash flow in plain words\nA DCF estimates the value of future cash flows in today's dollars. You forecast free cash flow for several years, choose a discount rate that reflects the risk, and add a value for the years beyond the forecast. A higher risk means a higher discount rate and a lower value.\n\nFor a small business, a simple five-year DCF is mainly a **reasonableness check**. It forces you to write down your assumptions about growth, margins and the money you will need to reinvest.\n\n## Price is not value\n- **Value** is what the business is worth **to you**, given your financing, skills and plans.\n- **Price** is what you and the seller agree on, and it includes **terms**: how much is paid at closing, what is paid later through a seller note or earn-out, and what the seller does after the sale.\n\nTwo offers with the same headline price can be very different. More cash at closing usually costs you more than the same amount paid over time, tied to performance.\n\n## Check affordability\nA price is only workable if the business can pay its debt and you. Run your range through the affordability calculator and check debt service coverage.\n\n## Practical output\nWrite a **valuation range**: low, base and high, each with its earnings figure, multiple or DCF assumptions, and the financing check. Have a qualified valuator or accountant review it on a live deal.",
+      "video": {
+        "url": null,
+        "presenter": null
+      }
+    }
+  ],
+  "readings": [
+    {
+      "title": "Buying a Business in Canada: practical guide",
+      "source": "BDC",
+      "url": "https://www.bdc.ca/en/articles-tools/entrepreneur-toolkit/guides/buying-business-canada",
+      "access": "FREE",
+      "note": "A plain-language Canadian walkthrough: finding a company, valuation versus price, closing and taking over."
+    },
+    {
+      "title": "CBV Institute: find a Chartered Business Valuator",
+      "source": "CBV Institute",
+      "url": "https://cbvinstitute.com/",
+      "access": "FREE",
+      "note": "The professional body for business valuators in Canada."
+    },
+    {
+      "title": "HBR Guide to Buying a Small Business (Ruback and Yudkoff)",
+      "source": "Harvard Business Review Press",
+      "url": "https://store.hbr.org/product/hbr-guide-to-buying-a-small-business/10090",
+      "access": "PAID",
+      "note": "A full book on the search, valuation, financing and closing. US-focused; translate the financing chapters to Canadian programs."
+    },
+    {
+      "title": "Search fund research and the Primer on Search Funds",
+      "source": "Stanford GSB Center for Entrepreneurial Studies",
+      "url": "https://www.gsb.stanford.edu/experience/about/centers-institutes/ces/research/search-funds",
+      "access": "FREE",
+      "note": "The widely used primer on the search fund model, plus the recurring search fund study."
+    }
+  ],
+  "practicalOutput": {
+    "title": "Valuation range",
+    "description": "A low, base and high value with written assumptions and an affordability check.",
+    "steps": [
+      "Pick the adjusted earnings figure from Module 4.",
+      "Apply a low, base and high multiple and explain each.",
+      "Run a simple five-year DCF as a check.",
+      "Test each case in the affordability calculator.",
+      "Write which terms would make the high case acceptable."
+    ]
+  },
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "Adjusted SDE is $300,000 and the multiple is 2.5. What is the indicated value?",
+      "options": [
+        "$120,000",
+        "$750,000",
+        "$300,000",
+        "$2.5 million"
+      ],
+      "answer": 1,
+      "explanation": "$300,000 × 2.5 = $750,000."
+    },
+    {
+      "id": "q2",
+      "question": "What usually lowers a small-business multiple?",
+      "options": [
+        "Recurring revenue",
+        "Many small customers",
+        "Heavy dependence on the owner",
+        "A strong management team"
+      ],
+      "answer": 2,
+      "explanation": "Owner dependence raises transition risk, which buyers price in."
+    },
+    {
+      "id": "q3",
+      "question": "In a DCF, a higher discount rate…",
+      "options": [
+        "raises the value",
+        "lowers the value",
+        "has no effect",
+        "only changes taxes"
+      ],
+      "answer": 1,
+      "explanation": "Future cash is worth less today when you require a higher return for risk."
+    },
+    {
+      "id": "q4",
+      "question": "Why can two offers at the same headline price differ?",
+      "options": [
+        "They cannot",
+        "Terms such as cash at closing, seller notes and earn-outs differ",
+        "Only the lawyer's fees differ",
+        "Price always equals value"
+      ],
+      "answer": 1,
+      "explanation": "Price includes terms. How and when you pay changes the real cost and risk."
+    }
+  ],
+  "relatedTool": {
+    "slug": "affordability",
+    "label": "Affordability calculator",
+    "status": "working"
+  },
+  "newcomerSupplements": []
+}

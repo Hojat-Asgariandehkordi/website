@@ -1,0 +1,71 @@
+[
+  {
+    "slug": "affordability",
+    "title": "Affordability calculator",
+    "status": "working",
+    "href": "/tools/affordability",
+    "summary": "Test a purchase price against your financing: payments, debt service coverage, take-home pay and cash to close."
+  },
+  {
+    "slug": "checklist",
+    "title": "Deal-readiness checklist",
+    "status": "working",
+    "href": "/tools/checklist",
+    "summary": "Track what you have prepared. It shows a count, not a score."
+  },
+  {
+    "slug": "ai-mentor",
+    "title": "AI mentor",
+    "status": "planned",
+    "summary": "Ask questions about the course material and your practical outputs."
+  },
+  {
+    "slug": "cim-teardown",
+    "title": "CIM teardown",
+    "status": "planned",
+    "summary": "Practise screening a sample CIM and compare your memo with a worked example."
+  },
+  {
+    "slug": "qoe-workbench",
+    "title": "Quality-of-earnings workbench",
+    "status": "planned",
+    "summary": "Build an adjusted earnings sheet and classify add-backs."
+  },
+  {
+    "slug": "valuation-sandbox",
+    "title": "Valuation sandbox",
+    "status": "planned",
+    "summary": "Compare multiples and a simple DCF side by side."
+  },
+  {
+    "slug": "capital-stack",
+    "title": "Capital-stack builder",
+    "status": "planned",
+    "summary": "Layer equity, senior debt, seller notes and earn-outs and see the effect."
+  },
+  {
+    "slug": "loi-builder",
+    "title": "LOI builder",
+    "status": "planned",
+    "summary": "Draft a practice term sheet with your proposals and walk-away points."
+  },
+  {
+    "slug": "data-room-hunt",
+    "title": "Data-room hunt",
+    "status": "planned",
+    "summary": "Find the issues hidden in a practice data room."
+  },
+  {
+    "slug": "negotiation-practice",
+    "title": "Negotiation practice",
+    "status": "planned",
+    "summary": "Rehearse seller conversations with realistic scenarios."
+  },
+  {
+    "slug": "who-handles-this",
+    "title": "Who handles this?",
+    "status": "planned",
+    "summary": "Describe a task and see which Deal Team role usually handles it.",
+    "href": "/deal-team"
+  }
+]

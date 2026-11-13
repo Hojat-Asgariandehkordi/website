@@ -1,0 +1,141 @@
+{
+  "number": 1,
+  "slug": "acquisition-thesis",
+  "title": "Acquisition thesis and criteria",
+  "phase": "Decide",
+  "summary": "Turn your fit statement into clear search criteria: sector, size, geography and the edge you bring.",
+  "freePreview": true,
+  "reviewNotice": false,
+  "outcomes": [
+    "Explain why a written thesis makes your search faster.",
+    "Set criteria for sector, size, geography and deal type.",
+    "Describe your edge in a sentence a seller and lender would believe.",
+    "Write a one-page thesis."
+  ],
+  "video": {
+    "url": null,
+    "presenter": null
+  },
+  "lessons": [
+    {
+      "slug": "why-a-thesis",
+      "title": "Why a thesis saves you months",
+      "minutes": 10,
+      "body": "Without a thesis, every listing looks interesting and you spend months reading documents for businesses you would never buy. A thesis is a short, written filter. It tells you, brokers and lenders what you are looking for and why you are the right buyer.\n\n## What a good thesis does\n- **Narrows the field** so you can say no quickly.\n- **Makes outreach credible.** Owners and brokers respond better to a buyer who knows what they want.\n- **Shows lenders a plan.** A lender wants to see that your experience matches the business you plan to run.\n\n## What it is not\nA thesis is not a promise. You will update it as you learn. Treat it as your current best answer, with a date on it.",
+      "video": {
+        "url": null,
+        "presenter": null
+      }
+    },
+    {
+      "slug": "setting-criteria",
+      "title": "Setting your criteria",
+      "minutes": 15,
+      "body": "Most theses answer the same five questions.\n\n## Sector\nWhich industries do you understand, or could learn quickly? Many first-time buyers look for \"boring\" businesses with steady, repeat customers: commercial services, distribution, light manufacturing, trades. Avoid sectors that need a licence or credential you cannot get.\n\n## Size\nSize is usually stated as annual cash flow (SDE or EBITDA, covered in Module 3) and revenue. Your equity and financing set the upper limit. Very small businesses often depend heavily on the owner, which raises transition risk.\n\n## Geography\nWhere are you willing to live and work? Rural businesses can be good value and have fewer competing buyers, but may be harder to staff. In Québec, plan to run the business in French.\n\n## Deal type\nAre you open to a full purchase only, or also to a partial buyout or a gradual transition with the owner staying on?\n\n## Your edge\nFinish this sentence: \"I am a good owner for this kind of business because…\". Your edge might be an industry network, an operating skill, a language or a customer group you understand. Be specific and honest.\n\n## Practical output\nWrite a **one-page thesis**: a short paragraph on why, then your five criteria, then three deal-breakers.",
+      "video": {
+        "url": null,
+        "presenter": null
+      }
+    }
+  ],
+  "readings": [
+    {
+      "title": "Search fund research and the Primer on Search Funds",
+      "source": "Stanford GSB Center for Entrepreneurial Studies",
+      "url": "https://www.gsb.stanford.edu/experience/about/centers-institutes/ces/research/search-funds",
+      "access": "FREE",
+      "note": "The widely used primer on the search fund model, plus the recurring search fund study."
+    },
+    {
+      "title": "HBR Guide to Buying a Small Business (Ruback and Yudkoff)",
+      "source": "Harvard Business Review Press",
+      "url": "https://store.hbr.org/product/hbr-guide-to-buying-a-small-business/10090",
+      "access": "PAID",
+      "note": "A full book on the search, valuation, financing and closing. US-focused; translate the financing chapters to Canadian programs."
+    },
+    {
+      "title": "Buying a Business in Canada: practical guide",
+      "source": "BDC",
+      "url": "https://www.bdc.ca/en/articles-tools/entrepreneur-toolkit/guides/buying-business-canada",
+      "access": "FREE",
+      "note": "A plain-language Canadian walkthrough: finding a company, valuation versus price, closing and taking over."
+    },
+    {
+      "title": "Repreneuriat Québec",
+      "source": "Repreneuriat Québec",
+      "url": "https://repreneuriat.quebec/",
+      "access": "FREE",
+      "note": "Québec's business-transfer organization, supporting buyers and sellers across the province. Some services are paid packages."
+    }
+  ],
+  "practicalOutput": {
+    "title": "One-page thesis",
+    "description": "A dated, one-page description of the business you want to buy and why you are the right owner.",
+    "steps": [
+      "Write two or three sentences on why you want to own this kind of business.",
+      "State sector, size range, geography and deal type.",
+      "Write your edge in one sentence.",
+      "List three deal-breakers.",
+      "Date it and plan to revisit it every quarter."
+    ]
+  },
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "What is the main job of an acquisition thesis?",
+      "options": [
+        "To fix the price in advance",
+        "To filter opportunities quickly and explain your fit",
+        "To replace due diligence",
+        "To attract investors with forecasts"
+      ],
+      "answer": 1,
+      "explanation": "A thesis is a filter and a credibility signal. It is not a valuation or a substitute for diligence."
+    },
+    {
+      "id": "q2",
+      "question": "Why can very small businesses carry higher transition risk?",
+      "options": [
+        "They are always unprofitable",
+        "They often depend heavily on the current owner",
+        "Banks are not allowed to lend to them",
+        "They have too many employees"
+      ],
+      "answer": 1,
+      "explanation": "When customers and know-how sit with the owner, the business can weaken when the owner leaves."
+    },
+    {
+      "id": "q3",
+      "question": "Which is the best example of a stated edge?",
+      "options": [
+        "I work hard",
+        "I am passionate about business",
+        "I spent eight years managing dispatch for a regional HVAC company",
+        "I have read many books"
+      ],
+      "answer": 2,
+      "explanation": "A good edge is specific and checkable, and it connects to the businesses you are targeting."
+    },
+    {
+      "id": "q4",
+      "question": "How often should you revisit your thesis?",
+      "options": [
+        "Never; it is a commitment",
+        "Regularly, as you learn from the market",
+        "Only after closing",
+        "Only if a lender asks"
+      ],
+      "answer": 1,
+      "explanation": "A thesis is a working document. Date it and revisit it as you learn."
+    }
+  ],
+  "relatedTool": {
+    "slug": "checklist",
+    "label": "Deal-readiness checklist",
+    "status": "working"
+  },
+  "newcomerSupplements": [
+    "presenting-foreign-experience",
+    "quebec-and-french"
+  ]
+}

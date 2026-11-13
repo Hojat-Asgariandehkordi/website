@@ -1,0 +1,141 @@
+{
+  "number": 2,
+  "slug": "sourcing-and-outreach",
+  "title": "Sourcing and outreach",
+  "phase": "Find",
+  "summary": "Find businesses through brokers, direct outreach and Canadian transfer programs, and write a respectful first letter.",
+  "freePreview": false,
+  "reviewNotice": false,
+  "outcomes": [
+    "Compare brokered and proprietary (direct) deal sourcing.",
+    "Name Canadian channels such as Repreneuriat Québec and Futurpreneur.",
+    "Build and track a target list.",
+    "Write a short, respectful outreach letter."
+  ],
+  "video": {
+    "url": null,
+    "presenter": null
+  },
+  "lessons": [
+    {
+      "slug": "channels",
+      "title": "Where deals come from",
+      "minutes": 14,
+      "body": "## Business brokers\nBrokers represent sellers. They prepare a summary and a confidential information memorandum (CIM), screen buyers and run a process. Brokered deals move faster and come with organized information, but you will compete with other buyers and the broker's duty is to the seller.\n\n## Proprietary or direct deals\nYou contact owners who are not publicly selling. It takes more letters and calls, but you may face less competition and can build trust before price comes up. Many owners have never thought about a sale until someone asks kindly.\n\n## Canadian programs and networks\n- **Repreneuriat Québec** supports buyers and sellers of businesses across Québec, with training and paid support packages.\n- **Futurpreneur** offers financing and mentoring to entrepreneurs aged 18 to 39, and can be part of the picture for younger buyers.\n- **BDC** publishes business-transfer guides and finances acquisitions.\n- **Accountants, lawyers and bankers** often know which clients are thinking about retirement. Ask them, respectfully, to keep you in mind.\n\n## Industry associations\nTrade associations, supplier networks and local chambers of commerce are where owners already gather.",
+      "video": {
+        "url": null,
+        "presenter": null
+      }
+    },
+    {
+      "slug": "outreach-letter",
+      "title": "Building a list and writing to owners",
+      "minutes": 14,
+      "body": "## Build a target list\nUse your thesis criteria to list businesses that fit, even if they are not for sale. Track each one in a simple sheet: name, location, contact, source, date contacted, response and next step. Aim for a steady, manageable weekly volume rather than a single big push.\n\n## Write a respectful first letter\nOwners receive cold messages. Yours should be short, personal and honest.\n- Say who you are and why you are writing to **them** specifically.\n- Make clear you want to run the business, not flip it.\n- Show respect for what they built, their employees and their customers.\n- Ask for a conversation, not a price.\n- Keep it under 200 words.\n\n## Follow up\nMany owners reply on the second or third contact, sometimes months later. Be patient and polite, and never pressure.\n\n## Confidentiality\nIf an owner shares information, treat it as confidential even before you sign a non-disclosure agreement. Your reputation travels quickly among owners and advisors.\n\n## Practical output\nProduce a **target list** of at least 20 businesses and a **draft outreach letter**. NextOwner does not send messages for you; you decide what to send and when.",
+      "video": {
+        "url": null,
+        "presenter": null
+      }
+    }
+  ],
+  "readings": [
+    {
+      "title": "Repreneuriat Québec",
+      "source": "Repreneuriat Québec",
+      "url": "https://repreneuriat.quebec/",
+      "access": "FREE",
+      "note": "Québec's business-transfer organization, supporting buyers and sellers across the province. Some services are paid packages."
+    },
+    {
+      "title": "Futurpreneur",
+      "source": "Futurpreneur Canada",
+      "url": "https://www.futurpreneur.ca/en/",
+      "access": "FREE",
+      "note": "National non-profit offering financing and mentoring to entrepreneurs aged 18 to 39."
+    },
+    {
+      "title": "Business transfer: buy or sell a business",
+      "source": "BDC",
+      "url": "https://www.bdc.ca/en/business-transfer",
+      "access": "FREE",
+      "note": "BDC's hub of articles and tools on buying and transferring a business."
+    },
+    {
+      "title": "Buy Then Build (Walker Deibel)",
+      "source": "Lioncrest Publishing",
+      "url": "https://lioncrest.com/books/buy-then-build",
+      "access": "PAID",
+      "note": "A practitioner's book on acquisition entrepreneurship, from opportunity to execution."
+    }
+  ],
+  "practicalOutput": {
+    "title": "Target list and outreach letter",
+    "description": "A tracked list of businesses that match your thesis, and a short first letter to an owner.",
+    "steps": [
+      "List 20 or more businesses that match your thesis.",
+      "Record a source and a contact for each.",
+      "Draft a first letter under 200 words.",
+      "Plan a follow-up schedule.",
+      "Review the letter with a mentor before sending anything."
+    ]
+  },
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "Who does a business broker usually represent?",
+      "options": [
+        "The buyer",
+        "The seller",
+        "The bank",
+        "The government"
+      ],
+      "answer": 1,
+      "explanation": "A broker usually works for the seller, so their duty runs to the seller."
+    },
+    {
+      "id": "q2",
+      "question": "What is a main advantage of a proprietary (direct) deal?",
+      "options": [
+        "It always costs less",
+        "There may be less competition from other buyers",
+        "No due diligence is needed",
+        "The seller must accept your first offer"
+      ],
+      "answer": 1,
+      "explanation": "Direct outreach can reach owners who are not running a public sale, so fewer buyers compete."
+    },
+    {
+      "id": "q3",
+      "question": "What should a first outreach letter ask for?",
+      "options": [
+        "The asking price",
+        "Three years of tax returns",
+        "A conversation",
+        "An exclusivity agreement"
+      ],
+      "answer": 2,
+      "explanation": "Start with a conversation. Price and documents come later, once there is trust."
+    },
+    {
+      "id": "q4",
+      "question": "Which organization supports business transfers across Québec?",
+      "options": [
+        "Repreneuriat Québec",
+        "CBV Institute",
+        "FCAC",
+        "Corporations Canada"
+      ],
+      "answer": 0,
+      "explanation": "Repreneuriat Québec supports buyers and sellers of businesses across the province."
+    }
+  ],
+  "relatedTool": {
+    "slug": "who-handles-this",
+    "label": "Who handles this? (planned)",
+    "status": "planned"
+  },
+  "newcomerSupplements": [
+    "presenting-foreign-experience",
+    "quebec-and-french"
+  ]
+}

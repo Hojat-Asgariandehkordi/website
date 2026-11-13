@@ -1,0 +1,141 @@
+{
+  "number": 10,
+  "slug": "closing-and-transition",
+  "title": "Closing and transition",
+  "phase": "Own",
+  "summary": "Prepare for closing day and lead the first 100 days with employees, customers and suppliers.",
+  "freePreview": false,
+  "reviewNotice": true,
+  "outcomes": [
+    "List what usually happens at and around closing.",
+    "Plan communication with employees, customers and suppliers.",
+    "Use the seller's transition period well.",
+    "Write a 100-day plan."
+  ],
+  "video": {
+    "url": null,
+    "presenter": null
+  },
+  "lessons": [
+    {
+      "slug": "closing",
+      "title": "Closing day",
+      "minutes": 12,
+      "body": "Closing is when money and ownership change hands. Your lawyer usually coordinates it. Your job is to make sure nothing is left to the last day.\n\n## Before closing\n- All conditions in the purchase agreement are met or waived.\n- Financing is confirmed and funds are ready.\n- Key consents, such as landlord approval of a lease transfer, are in hand.\n- Insurance is in place from the moment you own the business.\n- Banking, payroll and tax registrations are ready, so you can pay staff on the first payday.\n\n## On the day\nDocuments are signed, funds move and keys, passwords and records are handed over. Keep a checklist of every login and account you need.",
+      "video": {
+        "url": null,
+        "presenter": null
+      }
+    },
+    {
+      "slug": "first-100-days",
+      "title": "The first 100 days",
+      "minutes": 16,
+      "body": "The first months set the tone. People are watching to see what changes.\n\n## Employees first\nEmployees often hear about a sale with worry. Meet them early, ideally with the seller. Explain who you are, what will **not** change soon and how they can reach you. Agree with your lawyer how employment terms carry over. Listen more than you speak.\n\n## Customers and suppliers\nVisit the most important customers with the seller. Reassure them about continuity of service and pricing. Confirm terms with key suppliers.\n\n## Learn before you change\nA common rule of thumb is to make few big changes in the first months. Learn how the business really works. Fix urgent problems, but save major changes until you understand the effects.\n\n## Use the seller\nAgree a clear schedule for the seller's transition: what they will teach you and which relationships they will introduce. Write it down.\n\n## Practical output\nWrite a **100-day plan**: weeks 1–2 (people and continuity), weeks 3–6 (learning and quick fixes), weeks 7–14 (first improvements), with named relationships to transfer and the numbers you will watch weekly.",
+      "video": {
+        "url": null,
+        "presenter": null
+      }
+    }
+  ],
+  "readings": [
+    {
+      "title": "Buying a Business in Canada: practical guide",
+      "source": "BDC",
+      "url": "https://www.bdc.ca/en/articles-tools/entrepreneur-toolkit/guides/buying-business-canada",
+      "access": "FREE",
+      "note": "A plain-language Canadian walkthrough: finding a company, valuation versus price, closing and taking over."
+    },
+    {
+      "title": "ETA Insider podcast",
+      "source": "Polsky Center, Chicago Booth",
+      "url": "https://polsky.uchicago.edu/programs-events/entrepreneurship-through-acquisition/eta-podcast-series/",
+      "access": "FREE",
+      "note": "Interviews with acquisition entrepreneurs and investors."
+    },
+    {
+      "title": "Insurance Bureau of Canada: business insurance",
+      "source": "IBC",
+      "url": "https://www.ibc.ca/",
+      "access": "FREE",
+      "note": "Plain-language guidance on commercial insurance."
+    },
+    {
+      "title": "Buy Then Build (Walker Deibel)",
+      "source": "Lioncrest Publishing",
+      "url": "https://lioncrest.com/books/buy-then-build",
+      "access": "PAID",
+      "note": "A practitioner's book on acquisition entrepreneurship, from opportunity to execution."
+    }
+  ],
+  "practicalOutput": {
+    "title": "100-day plan",
+    "description": "A week-by-week plan for your first 100 days as owner.",
+    "steps": [
+      "List every employee, key customer and supplier you will meet, and when.",
+      "Write what you will say about what is not changing.",
+      "Schedule the seller's transition tasks.",
+      "Pick five numbers to watch weekly.",
+      "Write down the changes you will not make before day 100."
+    ]
+  },
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "What should be in place from the moment you own the business?",
+      "options": [
+        "A new logo",
+        "Insurance",
+        "A second location",
+        "A new website"
+      ],
+      "answer": 1,
+      "explanation": "Coverage should start at closing, not after."
+    },
+    {
+      "id": "q2",
+      "question": "Who should you usually speak with first after closing?",
+      "options": [
+        "Competitors",
+        "Employees",
+        "Journalists",
+        "New suppliers"
+      ],
+      "answer": 1,
+      "explanation": "Employees are often anxious about a sale. Meeting them early builds trust."
+    },
+    {
+      "id": "q3",
+      "question": "What is the common advice about big changes in the first months?",
+      "options": [
+        "Make them all in week one",
+        "Make few until you understand the effects",
+        "Never change anything",
+        "Let the seller decide"
+      ],
+      "answer": 1,
+      "explanation": "Learn how the business works before making big changes."
+    },
+    {
+      "id": "q4",
+      "question": "How should you use the seller's transition period?",
+      "options": [
+        "Leave it informal",
+        "Agree a written schedule of what they will teach and introduce",
+        "Skip it to save money",
+        "Ask the seller to run the business"
+      ],
+      "answer": 1,
+      "explanation": "A written transition schedule makes the seller's knowledge transfer concrete."
+    }
+  ],
+  "relatedTool": {
+    "slug": "checklist",
+    "label": "Deal-readiness checklist",
+    "status": "working"
+  },
+  "newcomerSupplements": [
+    "presenting-foreign-experience",
+    "quebec-and-french"
+  ]
+}

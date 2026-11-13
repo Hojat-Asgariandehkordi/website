@@ -1,0 +1,151 @@
+{
+  "number": 0,
+  "slug": "is-buying-right-for-me",
+  "title": "Is buying a business right for me?",
+  "phase": "Decide",
+  "summary": "Compare the main paths to ownership and test whether buying fits your money, skills, time and family.",
+  "freePreview": true,
+  "reviewNotice": false,
+  "outcomes": [
+    "Explain what entrepreneurship through acquisition (ETA) is and how it differs from a startup.",
+    "Compare self-funded search, search fund, partnership, family succession and internal (employee or manager) buyouts.",
+    "Name your personal constraints: savings, risk tolerance, time horizon and household support.",
+    "Write a first personal fit statement."
+  ],
+  "video": {
+    "url": null,
+    "presenter": null
+  },
+  "lessons": [
+    {
+      "slug": "what-is-eta",
+      "title": "What it means to buy instead of start",
+      "minutes": 12,
+      "body": "Entrepreneurship through acquisition, or ETA, means becoming an owner-operator by buying a business that already has customers, staff and cash flow. You skip the hardest part of a startup, finding product–market fit, and take on a different job: finding a good company, paying a fair price and leading it well.\n\n## Why people choose this path\n- **Cash flow from day one.** A healthy small business already pays its bills. Your job is to keep it healthy while you pay down acquisition debt.\n- **Lower idea risk.** You are buying a track record, not a forecast.\n- **A large supply of sellers.** Many Canadian owners are nearing retirement and need a successor. Some will close if nobody buys.\n\n## What it asks of you\nBuying is not passive investing. Most small-business buyers run the company themselves. You will manage people, customers, suppliers and a lender, often all in the first week. The search itself can take a year or more, and many deals fall apart before closing.\n\n## The question for this module\nYou are not deciding whether ETA is good. You are deciding whether it is good **for you, now**. The rest of this module gives you a way to answer that honestly.",
+      "video": {
+        "url": null,
+        "presenter": null
+      }
+    },
+    {
+      "slug": "paths-to-ownership",
+      "title": "Five paths to ownership",
+      "minutes": 14,
+      "body": "There is more than one way to become the next owner. Each path trades control, money and support differently.\n\n## Self-funded search\nYou fund the search yourself and buy with a mix of your savings, bank debt and often a seller note. You keep most of the equity and all of the decisions. You also carry the cost of the search and the personal guarantee on the loan.\n\n## Search fund\nInvestors pay a modest salary and expenses while you search, then get the first right to fund the acquisition. You own less of the company, usually earned over time, but you have experienced investors and a board. The Stanford primer listed in the readings is the standard reference.\n\n## Partnership\nTwo buyers, or a buyer with a silent partner, share the cost and the work. It can double your capacity. It also doubles the number of people who must agree. Write down roles, money and exit terms before you look at a single deal.\n\n## Family succession\nYou buy, or take over, a business from a relative. The relationship helps with trust and knowledge transfer. It can also make price, roles and fairness among siblings harder to talk about.\n\n## Internal buyout\nA manager or employee group buys from the owner. You already know the business, which lowers risk. You may need outside capital and a clear plan for how the seller steps back.\n\n## Choosing\nNo path is better in general. Write down which two paths you could realistically take, and why the others do not fit.",
+      "video": {
+        "url": null,
+        "presenter": null
+      }
+    },
+    {
+      "slug": "personal-fit",
+      "title": "Your money, time and support",
+      "minutes": 10,
+      "body": "A good business can still be a bad fit. Before you look at listings, take stock of four things.\n\n## 1. Money\nHow much cash can you put in without risking your household's safety? Lenders usually expect a buyer to contribute some equity, and you also need cash for closing costs and a cushion for the first months. Write a number you would be comfortable losing.\n\n## 2. Time\nSearching is close to a full-time job. Can you search while employed, or will you need to leave your job? How many months can your household go without your salary?\n\n## 3. Skills\nList what you have done well: managing people, selling, operations, finance. Then list what you have never done. The gaps tell you which businesses to avoid and who to add to your deal team.\n\n## 4. Support\nTalk with the people who share your life. Owning a business affects evenings, weekends and savings. Their support is part of your plan.\n\n## Your practical output\nWrite a **personal fit statement**: one page that names your preferred path, your money range, your time horizon, your strongest skills and the gaps you will cover with advisors. You will build on it in Module 1.",
+      "video": {
+        "url": null,
+        "presenter": null
+      }
+    }
+  ],
+  "readings": [
+    {
+      "title": "Search fund research and the Primer on Search Funds",
+      "source": "Stanford GSB Center for Entrepreneurial Studies",
+      "url": "https://www.gsb.stanford.edu/experience/about/centers-institutes/ces/research/search-funds",
+      "access": "FREE",
+      "note": "The widely used primer on the search fund model, plus the recurring search fund study."
+    },
+    {
+      "title": "ETA Insider podcast",
+      "source": "Polsky Center, Chicago Booth",
+      "url": "https://polsky.uchicago.edu/programs-events/entrepreneurship-through-acquisition/eta-podcast-series/",
+      "access": "FREE",
+      "note": "Interviews with acquisition entrepreneurs and investors."
+    },
+    {
+      "title": "Buying a Business in Canada: practical guide",
+      "source": "BDC",
+      "url": "https://www.bdc.ca/en/articles-tools/entrepreneur-toolkit/guides/buying-business-canada",
+      "access": "FREE",
+      "note": "A plain-language Canadian walkthrough: finding a company, valuation versus price, closing and taking over."
+    },
+    {
+      "title": "Buy Then Build (Walker Deibel)",
+      "source": "Lioncrest Publishing",
+      "url": "https://lioncrest.com/books/buy-then-build",
+      "access": "PAID",
+      "note": "A practitioner's book on acquisition entrepreneurship, from opportunity to execution."
+    }
+  ],
+  "practicalOutput": {
+    "title": "Personal fit statement",
+    "description": "A one-page statement of why, how and when you could buy a business.",
+    "steps": [
+      "Pick your two most realistic paths to ownership and say why.",
+      "Write your equity range and the cushion you will keep.",
+      "State how long you can search and how you will fund that time.",
+      "List three strengths and three gaps, and who could cover each gap.",
+      "Note what your household needs from this decision."
+    ]
+  },
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "What is the main difference between buying a business and starting one?",
+      "options": [
+        "Buying never needs debt",
+        "Buying starts with existing customers and cash flow",
+        "Buying is always cheaper",
+        "Startups never need a business plan"
+      ],
+      "answer": 1,
+      "explanation": "An acquisition gives you an operating business with a track record. You trade idea risk for the work of finding, paying for and running it well."
+    },
+    {
+      "id": "q2",
+      "question": "In a traditional search fund, who usually pays the searcher's salary during the search?",
+      "options": [
+        "The seller",
+        "A bank",
+        "Investors who fund the search",
+        "The government"
+      ],
+      "answer": 2,
+      "explanation": "Search fund investors fund the search phase and usually get the first right to invest in the acquisition."
+    },
+    {
+      "id": "q3",
+      "question": "Which question belongs in a personal fit statement?",
+      "options": [
+        "What is the seller's favourite sector?",
+        "How much can I invest without putting my household at risk?",
+        "What multiple did the last deal I read about use?",
+        "Which broker has the most listings?"
+      ],
+      "answer": 1,
+      "explanation": "The fit statement is about you: money, time, skills and support."
+    },
+    {
+      "id": "q4",
+      "question": "Which is a common trade-off of a partnership?",
+      "options": [
+        "You lose all control",
+        "More capacity, but more people must agree",
+        "Banks will not lend to partners",
+        "It removes the need for a lawyer"
+      ],
+      "answer": 1,
+      "explanation": "Partners add money and skills, and they also add decision-makers. Agree terms in writing early."
+    }
+  ],
+  "relatedTool": {
+    "slug": "checklist",
+    "label": "Deal-readiness checklist",
+    "status": "working"
+  },
+  "newcomerSupplements": [
+    "presenting-foreign-experience",
+    "immigration-status-and-ownership"
+  ]
+}

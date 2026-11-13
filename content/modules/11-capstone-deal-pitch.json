@@ -1,0 +1,131 @@
+{
+  "number": 11,
+  "slug": "capstone-deal-pitch",
+  "title": "Capstone: deal pitch to a mock committee",
+  "phase": "Own",
+  "summary": "Bring everything together in a one-page deal pitch and present it to a mock investment committee.",
+  "freePreview": false,
+  "reviewNotice": false,
+  "outcomes": [
+    "Summarize a deal on one page.",
+    "Defend your valuation, financing and risks.",
+    "Answer committee questions clearly.",
+    "Take feedback and revise."
+  ],
+  "video": {
+    "url": null,
+    "presenter": null
+  },
+  "lessons": [
+    {
+      "slug": "one-page-pitch",
+      "title": "Writing the one-page pitch",
+      "minutes": 14,
+      "body": "Lenders, partners and investors want to understand a deal quickly. A one-page pitch is the discipline of saying only what matters.\n\n## The sections\n1. **The business:** what it does, for whom, and why it lasts.\n2. **Why you:** your edge, from your thesis.\n3. **The numbers:** revenue, adjusted earnings, price, multiple.\n4. **The capital stack:** sources of funds, debt service coverage and your take-home pay.\n5. **Key risks and mitigations:** the top three from diligence and what you will do about each.\n6. **The first 100 days:** three priorities.\n7. **The ask:** what you want from the reader.\n\nUse a real or practice deal from your earlier modules. Every number should trace back to one of your practical outputs.",
+      "video": {
+        "url": null,
+        "presenter": null
+      }
+    },
+    {
+      "slug": "mock-committee",
+      "title": "Facing the mock committee",
+      "minutes": 12,
+      "body": "In a search fund, the committee is your investors. For a self-funded buyer, it may be your lender, a partner or a mentor. Practise with people who will ask hard questions.\n\n## Questions to expect\n- \"What happens if your largest customer leaves?\"\n- \"Which add-backs are you least sure about?\"\n- \"What if cash flow falls 20% in year one? Can you still pay the debt?\"\n- \"Why is the seller selling now?\"\n- \"What do you not know yet?\"\n\n## How to answer\nBe direct. If you do not know, say so and say how you will find out. Committees trust buyers who name their own risks.\n\n## After the session\nWrite down every question you could not answer well. Each one points to work you still need to do.\n\n## Practical output\nSubmit your **one-page deal pitch**, present it to a mentor or peer group acting as the committee, and revise it once based on their feedback.",
+      "video": {
+        "url": null,
+        "presenter": null
+      }
+    }
+  ],
+  "readings": [
+    {
+      "title": "Search fund research and the Primer on Search Funds",
+      "source": "Stanford GSB Center for Entrepreneurial Studies",
+      "url": "https://www.gsb.stanford.edu/experience/about/centers-institutes/ces/research/search-funds",
+      "access": "FREE",
+      "note": "The widely used primer on the search fund model, plus the recurring search fund study."
+    },
+    {
+      "title": "ETA Insider podcast",
+      "source": "Polsky Center, Chicago Booth",
+      "url": "https://polsky.uchicago.edu/programs-events/entrepreneurship-through-acquisition/eta-podcast-series/",
+      "access": "FREE",
+      "note": "Interviews with acquisition entrepreneurs and investors."
+    },
+    {
+      "title": "HBR Guide to Buying a Small Business (Ruback and Yudkoff)",
+      "source": "Harvard Business Review Press",
+      "url": "https://store.hbr.org/product/hbr-guide-to-buying-a-small-business/10090",
+      "access": "PAID",
+      "note": "A full book on the search, valuation, financing and closing. US-focused; translate the financing chapters to Canadian programs."
+    }
+  ],
+  "practicalOutput": {
+    "title": "One-page deal pitch",
+    "description": "A one-page summary of a deal, presented to a mock committee and revised once.",
+    "steps": [
+      "Fill in all seven sections on one page.",
+      "Trace every number to a previous practical output.",
+      "Stress-test cash flow down 20% in the calculator.",
+      "Present to at least two people acting as a committee.",
+      "Revise once and record what changed."
+    ]
+  },
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "What should every number in your pitch trace back to?",
+      "options": [
+        "A news article",
+        "Your earlier practical outputs and evidence",
+        "The seller's opinion alone",
+        "A guess"
+      ],
+      "answer": 1,
+      "explanation": "Traceable numbers build trust with a committee."
+    },
+    {
+      "id": "q2",
+      "question": "How should you answer a question you cannot answer yet?",
+      "options": [
+        "Make up a number",
+        "Say you do not know and how you will find out",
+        "Change the subject",
+        "Skip it"
+      ],
+      "answer": 1,
+      "explanation": "Committees trust buyers who are honest about what they do not know."
+    },
+    {
+      "id": "q3",
+      "question": "Why stress-test cash flow down 20%?",
+      "options": [
+        "To impress the seller",
+        "To see whether you can still pay debt in a bad year",
+        "It is required by law",
+        "To lower the price automatically"
+      ],
+      "answer": 1,
+      "explanation": "A downside test shows whether the structure survives a weak year."
+    },
+    {
+      "id": "q4",
+      "question": "Which section names what you want from the reader?",
+      "options": [
+        "The business",
+        "The ask",
+        "The numbers",
+        "Why you"
+      ],
+      "answer": 1,
+      "explanation": "End with a clear ask."
+    }
+  ],
+  "relatedTool": {
+    "slug": "affordability",
+    "label": "Affordability calculator",
+    "status": "working"
+  },
+  "newcomerSupplements": []
+}

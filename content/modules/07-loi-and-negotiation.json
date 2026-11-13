@@ -1,0 +1,134 @@
+{
+  "number": 7,
+  "slug": "loi-and-negotiation",
+  "title": "LOI and negotiation",
+  "phase": "Finance and negotiate",
+  "summary": "Structure a letter of intent and negotiate in a way that protects the deal and the relationship.",
+  "freePreview": false,
+  "reviewNotice": true,
+  "outcomes": [
+    "List the key terms in a letter of intent (LOI).",
+    "Separate binding and non-binding terms.",
+    "Prepare your walk-away terms before you negotiate.",
+    "Draft a practice LOI term sheet."
+  ],
+  "video": {
+    "url": null,
+    "presenter": null
+  },
+  "lessons": [
+    {
+      "slug": "loi-terms",
+      "title": "What goes in a letter of intent",
+      "minutes": 15,
+      "body": "A letter of intent, or LOI, sets out the main terms of a proposed deal before the lawyers draft the purchase agreement. Most of it is usually **non-binding**, but a few clauses usually **are** binding. Your lawyer should review any LOI before you sign it.\n\n## Common terms\n- **Price and structure:** cash at closing, seller note, earn-out, any working capital target\n- **What you are buying:** shares or assets (Module 9)\n- **Due diligence:** scope and length\n- **Exclusivity:** a period when the seller agrees not to negotiate with other buyers\n- **Financing condition:** the deal depends on you obtaining financing\n- **Transition:** how long the seller stays and in what role\n- **Key employees and leases:** any conditions about staff or premises\n- **Target closing date**\n\n## Usually binding\nExclusivity, confidentiality and who pays which costs are commonly binding even when the rest is not. Read every clause as if it could matter.",
+      "video": {
+        "url": null,
+        "presenter": null
+      }
+    },
+    {
+      "slug": "negotiating",
+      "title": "Negotiating well",
+      "minutes": 14,
+      "body": "## Prepare before you talk\nWrite down three things before any negotiation:\n1. **Your ideal terms.**\n2. **Your walk-away point,** for price and for terms such as the seller note.\n3. **What matters most to the seller.** For many owners it is their employees, their customers, their name in the community or a smooth retirement.\n\n## Trade, don't just haggle\nPrice is one lever among many. You might offer a longer transition role, keep the business name, or protect jobs, in exchange for a larger seller note or a lower price at closing.\n\n## Protect the relationship\nYou will rely on the seller for months after closing. Be direct, keep promises and put agreements in writing. Avoid surprises late in the process; raise problems as soon as you find them.\n\n## Practical output\nDraft a **practice LOI term sheet** for a sample business: a table of terms with your proposal and your walk-away for each. It is for practice only and is not a legal document.",
+      "video": {
+        "url": null,
+        "presenter": null
+      }
+    }
+  ],
+  "readings": [
+    {
+      "title": "HBR Guide to Buying a Small Business (Ruback and Yudkoff)",
+      "source": "Harvard Business Review Press",
+      "url": "https://store.hbr.org/product/hbr-guide-to-buying-a-small-business/10090",
+      "access": "PAID",
+      "note": "A full book on the search, valuation, financing and closing. US-focused; translate the financing chapters to Canadian programs."
+    },
+    {
+      "title": "Search fund research and the Primer on Search Funds",
+      "source": "Stanford GSB Center for Entrepreneurial Studies",
+      "url": "https://www.gsb.stanford.edu/experience/about/centers-institutes/ces/research/search-funds",
+      "access": "FREE",
+      "note": "The widely used primer on the search fund model, plus the recurring search fund study."
+    },
+    {
+      "title": "Buying a Business in Canada: practical guide",
+      "source": "BDC",
+      "url": "https://www.bdc.ca/en/articles-tools/entrepreneur-toolkit/guides/buying-business-canada",
+      "access": "FREE",
+      "note": "A plain-language Canadian walkthrough: finding a company, valuation versus price, closing and taking over."
+    }
+  ],
+  "practicalOutput": {
+    "title": "Practice LOI term sheet",
+    "description": "A table of LOI terms with your proposal and walk-away point for each.",
+    "steps": [
+      "List each LOI term from the lesson.",
+      "Write your proposal for each.",
+      "Write your walk-away point for each.",
+      "Note what the seller likely cares about most.",
+      "Mark which clauses would usually be binding and flag them for your lawyer."
+    ]
+  },
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "Which LOI clause is commonly binding?",
+      "options": [
+        "Price",
+        "Exclusivity",
+        "Closing date",
+        "Transition role"
+      ],
+      "answer": 1,
+      "explanation": "Exclusivity and confidentiality are commonly binding even when the rest of the LOI is not."
+    },
+    {
+      "id": "q2",
+      "question": "What should you write down before negotiating?",
+      "options": [
+        "Only your ideal price",
+        "Your ideal terms, walk-away point and what the seller cares about",
+        "The seller's home address",
+        "Nothing; improvise"
+      ],
+      "answer": 1,
+      "explanation": "Preparation keeps you from agreeing to terms you will regret."
+    },
+    {
+      "id": "q3",
+      "question": "Why protect the relationship with the seller?",
+      "options": [
+        "It is required by law",
+        "You often rely on the seller during the transition",
+        "Sellers always lower the price",
+        "It shortens due diligence"
+      ],
+      "answer": 1,
+      "explanation": "The seller's knowledge and goodwill matter during the transition."
+    },
+    {
+      "id": "q4",
+      "question": "What does a financing condition do?",
+      "options": [
+        "Guarantees a loan",
+        "Makes the deal depend on you obtaining financing",
+        "Sets the interest rate",
+        "Removes due diligence"
+      ],
+      "answer": 1,
+      "explanation": "It protects you if financing falls through."
+    }
+  ],
+  "relatedTool": {
+    "slug": "loi-builder",
+    "label": "LOI builder (planned)",
+    "status": "planned"
+  },
+  "newcomerSupplements": [
+    "presenting-foreign-experience",
+    "quebec-and-french"
+  ]
+}

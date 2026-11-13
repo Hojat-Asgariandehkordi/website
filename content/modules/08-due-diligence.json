@@ -1,0 +1,133 @@
+{
+  "number": 8,
+  "slug": "due-diligence",
+  "title": "Due diligence and the data room",
+  "phase": "Verify and structure",
+  "summary": "Plan diligence across financial, legal, operational and people areas, and log what you find.",
+  "freePreview": false,
+  "reviewNotice": true,
+  "outcomes": [
+    "Plan diligence across financial, legal, operational, commercial and people areas.",
+    "Run an organized data-room request list.",
+    "Rank findings by severity and decide how to respond.",
+    "Keep a due-diligence findings log."
+  ],
+  "video": {
+    "url": null,
+    "presenter": null
+  },
+  "lessons": [
+    {
+      "slug": "diligence-plan",
+      "title": "A diligence plan",
+      "minutes": 15,
+      "body": "Due diligence is where you confirm what you have been told and look for what you have not. It usually runs during the exclusivity period in your LOI, so time is limited. Plan it.\n\n## Five areas\n- **Financial:** quality of earnings, working capital, debts, tax filings.\n- **Legal:** corporate records, contracts, leases, permits and licences, disputes, intellectual property.\n- **Operational:** equipment condition, systems, suppliers, health and safety.\n- **Commercial:** customers, pricing, competitors, reputation. Talk to customers only with the seller's agreement.\n- **People:** key employees, employment terms, culture, how the owner's role will be covered.\n\n## Who does what\nYou lead. Your accountant leads financial and tax work, and your lawyer leads legal work. Insurance and environmental reviews may need specialists. Add searches of public registries, such as corporate and lien registries, to the plan with your lawyer.\n\n## The data room\nA data room is an organized folder, often online, where the seller places documents. Send a clear request list grouped by the five areas, number every item and track what has arrived.",
+      "video": {
+        "url": null,
+        "presenter": null
+      }
+    },
+    {
+      "slug": "findings-log",
+      "title": "Logging and acting on findings",
+      "minutes": 13,
+      "body": "Every diligence process finds something. The skill is deciding what matters.\n\n## Log every finding\nFor each finding, record: the area, what you found, the source document, the severity (**low**, **medium**, **high** or **deal-breaker**), the owner of the follow-up and the response.\n\n## Four possible responses\n1. **Accept it.** It is minor or already reflected in price.\n2. **Fix it before closing.** The seller resolves it, such as renewing a permit.\n3. **Price or protect it.** Adjust the price, hold back part of the payment, or add a specific promise (representation) in the purchase agreement.\n4. **Walk away.** Some findings, such as fraud or an un-transferable licence the business depends on, end the deal.\n\n## Keep your team informed\nShare the log with your lawyer, accountant and lender. Surprises at closing usually come from findings that were noted but not passed on.\n\n## Practical output\nSet up a **due-diligence findings log** with columns for area, finding, source, severity, owner, response and status.",
+      "video": {
+        "url": null,
+        "presenter": null
+      }
+    }
+  ],
+  "readings": [
+    {
+      "title": "Buying a Business in Canada: practical guide",
+      "source": "BDC",
+      "url": "https://www.bdc.ca/en/articles-tools/entrepreneur-toolkit/guides/buying-business-canada",
+      "access": "FREE",
+      "note": "A plain-language Canadian walkthrough: finding a company, valuation versus price, closing and taking over."
+    },
+    {
+      "title": "Corporations Canada",
+      "source": "Innovation, Science and Economic Development Canada",
+      "url": "https://ised-isde.canada.ca/site/corporations-canada/en",
+      "access": "FREE",
+      "note": "Search federal corporations and learn how incorporation works. Provincial registries hold provincially incorporated companies."
+    },
+    {
+      "title": "HBR Guide to Buying a Small Business (Ruback and Yudkoff)",
+      "source": "Harvard Business Review Press",
+      "url": "https://store.hbr.org/product/hbr-guide-to-buying-a-small-business/10090",
+      "access": "PAID",
+      "note": "A full book on the search, valuation, financing and closing. US-focused; translate the financing chapters to Canadian programs."
+    }
+  ],
+  "practicalOutput": {
+    "title": "Due-diligence findings log",
+    "description": "A structured log you can share with your advisors.",
+    "steps": [
+      "Create columns: area, finding, source, severity, owner, response, status.",
+      "Draft a numbered data-room request list grouped by the five areas.",
+      "Add three sample findings from a practice CIM.",
+      "Choose a response for each.",
+      "Note which advisor reviews each high-severity item."
+    ]
+  },
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "When does due diligence usually happen?",
+      "options": [
+        "Before you write a thesis",
+        "During the exclusivity period after an LOI",
+        "After closing",
+        "Only if the bank asks"
+      ],
+      "answer": 1,
+      "explanation": "Diligence usually runs during exclusivity, so time is limited."
+    },
+    {
+      "id": "q2",
+      "question": "Which is NOT one of the five diligence areas in this lesson?",
+      "options": [
+        "Financial",
+        "Legal",
+        "People",
+        "Social media popularity"
+      ],
+      "answer": 3,
+      "explanation": "The five areas are financial, legal, operational, commercial and people."
+    },
+    {
+      "id": "q3",
+      "question": "Diligence finds a permit that expires before closing. A sensible response is…",
+      "options": [
+        "Walk away immediately",
+        "Ask the seller to renew it before closing",
+        "Ignore it",
+        "Raise the price"
+      ],
+      "answer": 1,
+      "explanation": "Many findings can be fixed before closing."
+    },
+    {
+      "id": "q4",
+      "question": "Why share the findings log with your advisors?",
+      "options": [
+        "To avoid surprises at closing",
+        "It is required by the CRA",
+        "To reduce their fees",
+        "It replaces the purchase agreement"
+      ],
+      "answer": 0,
+      "explanation": "Findings that are noted but not passed on cause problems at closing."
+    }
+  ],
+  "relatedTool": {
+    "slug": "data-room-hunt",
+    "label": "Data-room hunt (planned)",
+    "status": "planned"
+  },
+  "newcomerSupplements": [
+    "deal-team-for-newcomers"
+  ]
+}
