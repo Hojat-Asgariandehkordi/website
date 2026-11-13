@@ -29,7 +29,7 @@ export function MobileMenu({ main, account }: { main: readonly Item[]; account: 
       <button
         ref={buttonRef}
         type="button"
-        className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-line text-cedar-900"
+        className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-line text-cedar-900 group-data-[tone=dark]/hdr:border-white/25 group-data-[tone=dark]/hdr:text-paper"
         aria-expanded={open}
         aria-controls="mobile-menu"
         onClick={() => setOpen((o) => !o)}

@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 export function NavLinks({ items }: { items: readonly { href: string; label: string }[] }) {
   const pathname = usePathname();
   return (
-    <ul className="flex items-center gap-1 rounded-full border border-line/70 bg-white/60 p-1 text-[14.5px] shadow-sm">
+    <ul className="flex items-center gap-8 text-[15px]">
       {items.map((i) => {
         const active = pathname === i.href || pathname.startsWith(i.href + "/");
         return (
@@ -14,7 +14,11 @@ export function NavLinks({ items }: { items: readonly { href: string; label: str
             <Link
               href={i.href}
               aria-current={active ? "page" : undefined}
-              className={`block rounded-full px-4 py-1.5 transition-colors ${active ? "bg-cedar-900 text-paper" : "text-ink-soft hover:bg-cedar-50 hover:text-cedar-900"}`}
+              className={`relative py-2 transition-colors after:absolute after:inset-x-0 after:-bottom-0.5 after:h-[2px] after:rounded-full after:transition-colors ${
+                active
+                  ? "text-cedar-900 after:bg-cedar-700 group-data-[tone=dark]/hdr:text-paper group-data-[tone=dark]/hdr:after:bg-[#E6CC8A]"
+                  : "text-ink-soft after:bg-transparent hover:text-cedar-900 group-data-[tone=dark]/hdr:text-[#CFDCD3] group-data-[tone=dark]/hdr:hover:text-paper"
+              }`}
             >
               {i.label}
             </Link>

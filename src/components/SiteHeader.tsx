@@ -5,35 +5,38 @@ import { ACCOUNT_NAV, MAIN_NAV } from "@/lib/nav";
 import { Logo } from "./Logo";
 import { MobileMenu } from "./MobileMenu";
 import { NavLinks } from "./NavLinks";
+import { HeaderShell } from "./HeaderShell";
 import { signOutAction } from "@/app/actions/auth";
 
 export async function SiteHeader() {
   const user = await currentUser();
   const account = user ? ACCOUNT_NAV.signedIn : ACCOUNT_NAV.signedOut;
+  const quiet = "text-[15px] text-ink-soft hover:text-cedar-900 group-data-[tone=dark]/hdr:text-[#CFDCD3] group-data-[tone=dark]/hdr:hover:text-paper";
+  const cta = "btn py-2.5 rounded-[10px] font-semibold bg-cedar-900 text-paper hover:bg-cedar-700 group-data-[tone=dark]/hdr:bg-paper group-data-[tone=dark]/hdr:text-cedar-900 group-data-[tone=dark]/hdr:hover:bg-white";
   return (
-    <header className="sticky top-0 z-30 border-b border-line/60 bg-paper/80 backdrop-blur-xl">
-      <div className="container-page relative flex h-[68px] items-center justify-between gap-6">
+    <HeaderShell>
+      <div className="container-page relative flex h-[72px] items-center justify-between gap-6">
         <Logo />
         <nav aria-label="Main" className="hidden lg:block">
           <NavLinks items={MAIN_NAV} />
         </nav>
-        <div className="hidden items-center gap-4 lg:flex">
+        <div className="hidden items-center gap-5 lg:flex">
           {user ? (
             <>
               <form action={signOutAction}>
-                <button className="text-[14.5px] text-ink-soft hover:text-cedar-900" type="submit">Sign out</button>
+                <button className={quiet} type="submit">Sign out</button>
               </form>
-              <Link href="/dashboard" className="btn-primary py-2">Dashboard <ArrowRight size={16} aria-hidden="true" /></Link>
+              <Link href="/dashboard" className={cta}>Dashboard <ArrowRight size={16} aria-hidden="true" /></Link>
             </>
           ) : (
             <>
-              <Link href="/sign-in" className="text-[14.5px] text-ink-soft hover:text-cedar-900">Sign in</Link>
-              <Link href="/sign-up" className="btn-primary py-2">Create account <ArrowRight size={16} aria-hidden="true" /></Link>
+              <Link href="/sign-in" className={quiet}>Sign in</Link>
+              <Link href="/sign-up" className={cta}>Create free account</Link>
             </>
           )}
         </div>
         <MobileMenu main={MAIN_NAV} account={account} />
       </div>
-    </header>
+    </HeaderShell>
   );
 }

@@ -41,6 +41,20 @@ The first version looked plain. The second pass added:
 - **Icons:** `lucide-react`.
 - **Motion:** subtle rise and float animations, which are switched off when the user prefers reduced motion.
 
+## Design pass 3: Ledger, refined (Nov 12, 2026)
+
+Three landing directions were laid out on a design canvas: A, Ledger (dark editorial); B, Daylight (bright modern); and C, Atlas (map). The owner chose A and asked for a more professional finish. The refined version, which is now live, has:
+
+- **Hero:** a deep cedar hero (`#10241A`) with a fine grid, one soft gold glow, a light-weight Fraunces headline (weight 350) and a gold accent (`#E6CC8A`).
+- **Hero visual:** a detailed dashboard composite with a progress ring, next lesson, coverage card, Deal Team statuses, and floating "practical output" and "quiz" cards.
+- **Header:** dark on the home page and light elsewhere, with an underline marking the active page.
+- **Below the hero:**
+  - a fact bar that overlaps the hero
+  - a strip naming the public sources
+  - interactive phase tabs that show each phase's modules and what you produce
+- **Feature rows:** three alternating rows (lessons, Deal Team, calculator). The calculator figures are computed live by the real calculator.
+- **Closing sections:** a split newcomer block, "How we built it" principles, an FAQ and a dark call to action, then a darker footer.
+
 ## Screenshots
 
 See `docs/screenshots/`:

@@ -4,7 +4,7 @@ import { Logo } from "./Logo";
 
 export function SiteFooter() {
   return (
-    <footer className="mt-28 bg-cedar-900 text-paper">
+    <footer className="mt-32 bg-[#0B1A12] text-paper">
       <div className="container-page grid gap-12 py-16 md:grid-cols-[1.6fr_1fr_1fr]">
         <div>
           <Logo light />
