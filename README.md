@@ -10,6 +10,16 @@ NextOwner helps anyone preparing to buy an existing small business in Canada (en
 
 This is a local prototype. It takes no payments, calls no paid APIs or AI services, sends no email and is not deployed anywhere.
 
+## Documentation
+
+| File | What's in it |
+| --- | --- |
+| `AGENTS.md` | Rules and a code map for AI coding assistants such as Cursor. Read it first. |
+| `docs/build-brief.md` | The original product brief |
+| `docs/build-report.md` | What is built, what is incomplete and the decisions still open |
+| `docs/design-research.md` | Design research, design decisions and sources |
+| `docs/screenshots/` | Screenshots of the running app |
+
 ## Run it
 
 You need Node.js 20 or newer.
