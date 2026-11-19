@@ -1,11 +1,24 @@
 import type { Video } from "@/lib/content";
+import { embedUrl } from "@/lib/video";
 
 /** Shows a real player only when a video URL exists. Otherwise an honest placeholder. */
 export function VideoSlot({ video, title }: { video: Video; title: string }) {
   if (video.url) {
+    const embed = embedUrl(video.url);
     return (
       <div className="aspect-video overflow-hidden rounded-2xl border border-line bg-black">
-        <video controls preload="metadata" className="h-full w-full" src={video.url} aria-label={`Video: ${title}`} />
+        {embed ? (
+          <iframe
+            src={embed}
+            title={`Video: ${title}`}
+            className="h-full w-full"
+            allow="encrypted-media; picture-in-picture; fullscreen"
+            allowFullScreen
+            loading="lazy"
+          />
+        ) : (
+          <video controls preload="metadata" className="h-full w-full" src={video.url} aria-label={`Video: ${title}`} />
+        )}
       </div>
     );
   }
