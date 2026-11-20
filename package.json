@@ -5,6 +5,8 @@
   "description": "NextOwner: prepare to buy a small business in Canada.",
   "scripts": {
     "setup": "tsx scripts/setup.ts",
+    "news:fetch": "tsx scripts/news-fetch.ts",
+    "news:approve": "tsx scripts/news-approve.ts",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

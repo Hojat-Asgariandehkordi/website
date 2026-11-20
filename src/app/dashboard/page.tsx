@@ -2,7 +2,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { requireUser } from "@/lib/auth";
 import { getDb } from "@/lib/db";
-import { getChecklist as getSavedChecklist, getCompletedLessons, getQuizResults, listScenarios, listTeam } from "@/lib/repo";
+import { getChecklist as getSavedChecklist, getCompletedLessons, getNewsPrefs, getQuizResults, getReadNews, listScenarios, listTeam } from "@/lib/repo";
+import { formatNewsDate, getNews, unreadItems } from "@/lib/news";
 import { getChecklist, getModules, getRoles, getSupplements, moduleProgress } from "@/lib/content";
 import { continueLesson } from "@/lib/progress";
 import { calculate, formatCad } from "@/lib/calculator";
@@ -28,6 +29,9 @@ export default async function DashboardPage() {
   const totalLessons = modules.reduce((n, m) => n + m.lessons.length, 0);
   const next = continueLesson(user.lastModule, user.lastLesson, completed);
   const doneModules = new Set(modules.filter((m) => { const p = moduleProgress(m, completed); return p.done === p.total; }).map((m) => m.slug));
+  const news = getNews();
+  const newsUnread = unreadItems(news, getReadNews(db, user.id), getNewsPrefs(db, user.id), user.createdAt);
+  const newsShown = (newsUnread.length > 0 ? newsUnread : news).slice(0, 3);
   const roleTitle = (s: string) => getRoles().find((r) => r.slug === s)?.title ?? s;
 
   return (
@@ -131,6 +135,25 @@ export default async function DashboardPage() {
             </ul>
           )}
         </section>
+        <section aria-labelledby="news-h" className="card p-7 lg:col-span-3">
+          <div className="flex items-center justify-between">
+            <h2 id="news-h" className="text-2xl">News {newsUnread.length > 0 && <span className="tag ml-2 bg-clay-700 align-middle text-paper">{newsUnread.length} new</span>}</h2>
+            <Link className="link text-[15px]" href="/news">All news</Link>
+          </div>
+          {newsShown.length === 0 ? (
+            <p className="mt-3 text-ink-soft">No updates yet.</p>
+          ) : (
+            <ul className="mt-4 grid gap-4 md:grid-cols-3">
+              {newsShown.map((n) => (
+                <li key={n.id} className="rounded-xl border border-line p-4">
+                  <p className="text-xs text-ink-soft">{formatNewsDate(n.date)} · {n.source}</p>
+                  <Link href={`/news/${n.id}`} className="mt-1 block font-medium leading-snug hover:text-cedar-700">{n.title}</Link>
+                </li>
+              ))}
+            </ul>
+          )}
+        </section>
+
       </div>
     </div>
     </>

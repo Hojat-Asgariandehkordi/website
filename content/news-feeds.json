@@ -1,0 +1,22 @@
+{
+  "_note": "Public RSS or Atom feeds read by `npm run news:fetch`. Items whose title matches a keyword become drafts in content/news-drafts.json for review. Only the headline, link and date are kept; summaries are written by a person before publishing.",
+  "keywords": [
+    "succession", "business transfer", "buy a business", "acquisition", "search fund",
+    "small business", "entrepreneur", "BDC", "Small Business Financing", "employee ownership",
+    "newcomer", "start-up visa", "self-employed"
+  ],
+  "feeds": [
+    {
+      "name": "Canada News Centre: Innovation, Science and Economic Development Canada",
+      "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?dept=departmentofindustry&sort=publishedDate&orderBy=desc&pick=50&format=atom",
+      "source": "Innovation, Science and Economic Development Canada",
+      "topics": ["policy", "financing"]
+    },
+    {
+      "name": "Canada News Centre: national news",
+      "url": "https://www.canada.ca/content/canadasite/en/news/web-feeds/national-news.atom.xml",
+      "source": "Government of Canada",
+      "topics": ["policy"]
+    }
+  ]
+}

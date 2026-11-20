@@ -12,6 +12,7 @@ How to run it: `npm install && npm run setup && npm run dev`
 - **For newcomers:** supplements N1 to N6, each linked into the matching modules, and a self-declared newcomer track on the user's profile.
 - **Pricing:** a free preview, and a $199 placeholder package whose button is disabled ("Coming soon").
 - **Accounts and dashboard:** passwords hashed with bcrypt, session tokens stored as hashes, and every query scoped to the signed-in user.
+- **News:** `/news` lists ETA and succession updates as short summaries in our own words, each linking to its source. Visitors see three headlines. Members see every item and can filter by topic, choose the topics they follow, and see a "new" count in the header and on the dashboard. `npm run news:fetch` reads public Government of Canada feeds into local drafts. `npm run news:approve` publishes a draft only after a summary has been written. Six seed items were published, dated April to October 2026.
 - **French:** `/fr` is a French landing page marked as a draft.
 - **Design:** warm paper and cedar green, Fraunces and Inter, a `[LOGO]` slot, a mobile menu, a skip link and focus styles. See `docs/design-research.md`.
 - **Checks:**
@@ -19,7 +20,8 @@ How to run it: `npm install && npm run setup && npm run dev`
   - A browser test covered sign-up, progress, quizzes, the team list, scenarios, the checklist, the dashboard, isolation between two users and the mobile menu.
 
 ## Incomplete
-- No real videos yet.
+- No real videos yet. 16 of 25 HeyGen videos are rendered and are waiting for permanent hosting.
+- News appears on the site only. There is no email digest, because email is out of scope. The feed list covers only two Government of Canada feeds, so add more ETA sources to `content/news-feeds.json`.
 - No password reset or email verification, because sending email was out of scope.
 - No automated WCAG audit. Contrast and keyboard access were only checked by hand.
 - French covers the landing page only.

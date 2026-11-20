@@ -8,3 +8,4 @@ data/*.db-*
 *.tsbuildinfo
 .DS_Store
 data/demo-credentials.txt
+data/news-drafts.json

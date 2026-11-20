@@ -1,0 +1,73 @@
+{
+  "_note": "Published news items. Each summary is written in our own words; never paste text from the source. Add items here, or approve drafts with `npm run news:approve -- <id>`.",
+  "topics": [
+    { "slug": "eta", "label": "ETA and search funds" },
+    { "slug": "succession", "label": "Succession" },
+    { "slug": "financing", "label": "Financing" },
+    { "slug": "policy", "label": "Policy and tax" },
+    { "slug": "newcomers", "label": "Newcomers" },
+    { "slug": "events", "label": "Events" }
+  ],
+  "items": [
+    {
+      "id": "2026-10-cfib-passing-the-torch",
+      "date": "2026-10-22",
+      "title": "CFIB report: most small business owners plan to exit within ten years",
+      "source": "Canadian Federation of Independent Business (CFIB)",
+      "url": "https://www.cfib-fcei.ca/en/media/most-small-business-owners-plan-to-exit-their-business-over-the-next-decade-putting-over-2-trillion-at-risk",
+      "topics": ["succession"],
+      "summary": "CFIB's 2026 succession survey says close to two in three owners expect to leave their business in the next decade, yet very few have a formal succession plan. It puts the value of these businesses at more than $2 trillion. For buyers, this points to a growing number of owners who may want to sell over the coming years.",
+      "relatedModule": "sourcing-and-outreach"
+    },
+    {
+      "id": "2026-osler-long-duration-acquirer",
+      "date": "2026-10-26",
+      "title": "Osler on the widening range of acquisition models",
+      "source": "Osler, Hoskin & Harcourt LLP",
+      "url": "https://www.osler.com/?p=129528",
+      "topics": ["eta"],
+      "summary": "A Canadian law firm looks at how entrepreneurship through acquisition has moved beyond the classic search fund. It describes models with longer holding periods and more flexible ways to raise capital, and refers to Stanford's 2026 search fund data.",
+      "relatedModule": "is-buying-right-for-me"
+    },
+    {
+      "id": "2026-10-succession-summit-calgary",
+      "date": "2026-10-17",
+      "title": "First Canada's Succession Summit held in Calgary",
+      "source": "Venture for Canada",
+      "url": "https://smb.arrowlakesnews.com/article/Venture-for-Canada-Launches-Canadas-Succession-Summit-to-Address-the-Countrys-Coming-Business-Ownership-Transition/6a8c88a55b3d9368bc0225c1",
+      "topics": ["events", "succession", "eta"],
+      "summary": "Venture for Canada and the advisory firm Village Wellth brought together people from across the country to discuss business ownership transition, including the policies and systems that support new owners and the growth of acquisition entrepreneurship.",
+      "relatedModule": null
+    },
+    {
+      "id": "2026-q3-statcan-sell-or-transfer",
+      "date": "2026-10-01",
+      "title": "Statistics Canada: about one business in five plans to sell or transfer",
+      "source": "Statistics Canada",
+      "url": "https://www.statcan.gc.ca/o1/en/plus/9331-one-five-canadian-businesses-intends-sell-or-transfer-how-many-will-change-hands",
+      "topics": ["succession"],
+      "summary": "In its third-quarter 2026 survey, Statistics Canada found that roughly 20% of businesses intend to sell or transfer ownership within ten years. The article looks at how many of those transfers are likely to happen.",
+      "relatedModule": "sourcing-and-outreach"
+    },
+    {
+      "id": "2026-07-stanford-search-fund-study",
+      "date": "2026-07-13",
+      "title": "Stanford publishes its 2026 Search Fund Study",
+      "source": "Stanford Graduate School of Business",
+      "url": "https://www.gsb.stanford.edu/insights/search-funds-keep-offering-proven-path-ownership",
+      "topics": ["eta"],
+      "summary": "Stanford's research centre released the latest edition of its long-running study of search funds in the United States and Canada. It reports that the number of search funds keeps growing and that a little over half have historically gone on to buy a company. Read the study itself for the details and limits of the data.",
+      "relatedModule": "is-buying-right-for-me"
+    },
+    {
+      "id": "2026-04-eot-exemption-permanent",
+      "date": "2026-04-28",
+      "title": "Employee ownership trust tax exemption made permanent",
+      "source": "Miller Thomson LLP (via Mondaq)",
+      "url": "https://www.mondaq.com/canada/tax-authorities/1811122/ottawa-makes-%2410-million-eot-exemption-permanent",
+      "topics": ["policy", "succession"],
+      "summary": "In its 2026 Spring Economic Update, the federal government removed the end date on the capital gains exemption for selling a business to an employee ownership trust. That gives sellers a lasting alternative to a sale to an outside buyer, which buyers should keep in mind. Confirm the details with a tax professional.",
+      "relatedModule": "legal-and-tax-structure"
+    }
+  ]
+}

@@ -3,10 +3,10 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-export function NavLinks({ items }: { items: readonly { href: string; label: string }[] }) {
+export function NavLinks({ items, badges = {} }: { items: readonly { href: string; label: string }[]; badges?: Record<string, number> }) {
   const pathname = usePathname();
   return (
-    <ul className="flex items-center gap-8 text-[15px]">
+    <ul className="flex items-center gap-7 text-[15px]">
       {items.map((i) => {
         const active = pathname === i.href || pathname.startsWith(i.href + "/");
         return (
@@ -21,6 +21,11 @@ export function NavLinks({ items }: { items: readonly { href: string; label: str
               }`}
             >
               {i.label}
+              {badges[i.href] > 0 && (
+                <span className="ml-1.5 inline-flex min-w-[1.25rem] items-center justify-center rounded-full bg-clay-700 px-1.5 text-[11px] font-semibold leading-5 text-paper">
+                  {badges[i.href]}<span className="sr-only"> new</span>
+                </span>
+              )}
             </Link>
           </li>
         );

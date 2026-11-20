@@ -12,7 +12,7 @@ const pageExists = (route: string) => {
 
 describe("navigation", () => {
   it("has the main navigation in the required order", () => {
-    expect(MAIN_NAV.map((n) => n.label)).toEqual(["Course", "Deal Team", "Tools", "For newcomers", "Pricing"]);
+    expect(MAIN_NAV.map((n) => n.label)).toEqual(["Course", "Deal Team", "Tools", "For newcomers", "News", "Pricing"]);
   });
 
   it("offers Sign in, Create account and Dashboard", () => {

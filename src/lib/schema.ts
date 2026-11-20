@@ -71,6 +71,22 @@ export const checklistItems = sqliteTable(
   (t) => [primaryKey({ columns: [t.userId, t.itemKey] })],
 );
 
+export const newsReads = sqliteTable(
+  "news_reads",
+  {
+    userId: integer("user_id").notNull().references(() => users.id, { onDelete: "cascade" }),
+    itemId: text("item_id").notNull(),
+    readAt: integer("read_at").notNull(),
+  },
+  (t) => [primaryKey({ columns: [t.userId, t.itemId] })],
+);
+
+export const newsPrefs = sqliteTable("news_prefs", {
+  userId: integer("user_id").primaryKey().references(() => users.id, { onDelete: "cascade" }),
+  topics: text("topics").notNull(),
+  updatedAt: integer("updated_at").notNull(),
+});
+
 /** Plain SQL used to create the schema. Kept beside the Drizzle definitions above. */
 export const SCHEMA_SQL = `
 PRAGMA foreign_keys = ON;
@@ -130,5 +146,16 @@ CREATE TABLE IF NOT EXISTS checklist_items (
   item_key TEXT NOT NULL,
   checked_at INTEGER NOT NULL,
   PRIMARY KEY (user_id, item_key)
+);
+CREATE TABLE IF NOT EXISTS news_reads (
+  user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  item_id TEXT NOT NULL,
+  read_at INTEGER NOT NULL,
+  PRIMARY KEY (user_id, item_id)
+);
+CREATE TABLE IF NOT EXISTS news_prefs (
+  user_id INTEGER PRIMARY KEY REFERENCES users(id) ON DELETE CASCADE,
+  topics TEXT NOT NULL,
+  updated_at INTEGER NOT NULL
 );
 `;

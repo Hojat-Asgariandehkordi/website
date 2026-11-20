@@ -99,3 +99,16 @@ The suite covers:
 - the 12-module structure and its required parts
 - review notices
 - language rules, including never using the word for people that this project replaces with "newcomers"
+
+## News
+
+`/news` shows short ETA and succession updates. Visitors see the latest three headlines; members see every item, choose the topics they follow, and get a "new" count in the header and on the dashboard. News appears on the site only; no emails are sent.
+
+To add news:
+
+1. `npm run news:fetch` reads the public feeds in `content/news-feeds.json` and saves matching headlines to `data/news-drafts.json` (not committed). Only the headline, link and date are kept.
+2. Open `data/news-drafts.json`, write a `summary` in your own words (15 to 120 words) for each item you want, and adjust `topics`.
+3. `npm run news:approve -- --list`, then `npm run news:approve -- <id>` to publish it to `content/news.json`.
+4. Run `npm run check` and commit.
+
+You can also add items to `content/news.json` by hand. The tests check every item against the same rules.

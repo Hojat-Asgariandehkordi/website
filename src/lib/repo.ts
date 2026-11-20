@@ -4,7 +4,7 @@
  */
 import { and, desc, eq } from "drizzle-orm";
 import type { DB } from "./db";
-import { checklistItems, lessonProgress, quizResults, scenarios, teamMembers, users } from "./schema";
+import { checklistItems, lessonProgress, newsPrefs, newsReads, quizResults, scenarios, teamMembers, users } from "./schema";
 import { hashPassword, verifyPassword } from "./password";
 import type { CalculatorInputs } from "./calculator";
 
@@ -37,7 +37,7 @@ export async function authenticate(db: DB, email: string, password: string) {
 export function getUser(db: DB, userId: number) {
   const u = db.select().from(users).where(eq(users.id, userId)).get();
   if (!u) return null;
-  return { id: u.id, email: u.email, name: u.name, newcomerTrack: u.newcomerTrack, lastModule: u.lastModule, lastLesson: u.lastLesson };
+  return { id: u.id, email: u.email, name: u.name, newcomerTrack: u.newcomerTrack, lastModule: u.lastModule, lastLesson: u.lastLesson, createdAt: u.createdAt };
 }
 
 export function setNewcomerTrack(db: DB, userId: number, on: boolean) {
@@ -140,4 +140,40 @@ export function setChecklistItem(db: DB, userId: number, itemKey: string, checke
   } else {
     db.delete(checklistItems).where(and(eq(checklistItems.userId, userId), eq(checklistItems.itemKey, itemKey))).run();
   }
+}
+
+// ---------- news ----------
+/** Ids of news items the user has opened. */
+export function getReadNews(db: DB, userId: number): Set<string> {
+  const rows = db.select({ itemId: newsReads.itemId }).from(newsReads).where(eq(newsReads.userId, userId)).all();
+  return new Set(rows.map((r) => r.itemId));
+}
+
+export function markNewsRead(db: DB, userId: number, itemIds: readonly string[]) {
+  if (itemIds.length === 0) return;
+  const t = now();
+  db.insert(newsReads)
+    .values(itemIds.map((itemId) => ({ userId, itemId, readAt: t })))
+    .onConflictDoNothing()
+    .run();
+}
+
+/** Topics the user follows. An empty list means "all topics". */
+export function getNewsPrefs(db: DB, userId: number): string[] {
+  const row = db.select().from(newsPrefs).where(eq(newsPrefs.userId, userId)).get();
+  if (!row) return [];
+  try {
+    const parsed = JSON.parse(row.topics);
+    return Array.isArray(parsed) ? parsed.filter((x): x is string => typeof x === "string") : [];
+  } catch {
+    return [];
+  }
+}
+
+export function setNewsPrefs(db: DB, userId: number, topics: readonly string[]) {
+  const value = JSON.stringify([...new Set(topics)]);
+  db.insert(newsPrefs)
+    .values({ userId, topics: value, updatedAt: now() })
+    .onConflictDoUpdate({ target: newsPrefs.userId, set: { topics: value, updatedAt: now() } })
+    .run();
 }

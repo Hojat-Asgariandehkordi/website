@@ -34,7 +34,8 @@ These are enforced by the tests in `tests/`.
 8. Do not add real payments, paid APIs or AI keys, emails to real people, public deployment or a public directory of people.
 9. Every query that touches user data must filter on `userId`. All data access lives in `src/lib/repo.ts`.
 10. Never print secrets. The demo password goes to `data/demo-credentials.txt`, which git ignores.
-11. Keep the `[LOGO]` text slot in `src/components/Logo.tsx` until a final logo is chosen.
+11. News items are published only after a person writes the summary in their own words. Never paste text from a news source, and never publish feed items automatically. `npm run news:approve` enforces the rules in `src/lib/news-rules.ts`.
+12. Keep the `[LOGO]` text slot in `src/components/Logo.tsx` until a final logo is chosen.
 
 ## Map of the code
 
@@ -42,6 +43,9 @@ These are enforced by the tests in `tests/`.
 | --- | --- |
 | `content/modules/*.json` | One file per course module: lessons (Markdown subset), readings, quiz, practical output |
 | `content/deal-team.json`, `newcomers.json`, `checklist.json`, `tools.json` | Other editable content |
+| `content/news.json` | Published news items (summaries in our own words) and news topics |
+| `content/news-feeds.json` | Public RSS/Atom feeds and keywords for the news importer |
+| `src/lib/news.ts`, `src/lib/news-rules.ts`, `src/lib/rss.ts` | News loaders, unread logic, publishing rules, feed parser |
 | `src/lib/content.ts` | Content types and loaders |
 | `src/lib/calculator.ts` | Affordability math; pure functions; fully amortizing monthly payments; 0% rate allowed |
 | `src/lib/repo.ts` | All database reads and writes, scoped to a user |
